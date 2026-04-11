@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Queen in Japan • 日本の愛されたクイーン</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <nav id="mySidebar" class="sidebar">
+    <a href="../../index.html"><img src="../images/top-icon.png" class="icon" alt="">Home</a>
+    <a href="../../official.html"><img src="../images/official-icon.png" class="icon" alt="">Official Japanese Fanclub Magazines</a>
+    <a href="../../unofficial.html"><img src="../images/unofficial-icon.png" class="icon" alt="">Unofficial Japanese Fanclub Magazines</a>
+    <a href="../../manga.html"><img src="../images/manga-icon.png" class="icon" alt="">Queen in Manga <br>& Doujinshi</a>
+    <a href="../../press.html"><img src="../images/press-icon.png" class="icon" alt="">Queen in Japanese Press</a>
+    <a href="../../promo.html"><img src="../images/promo-icon.png" class="icon" alt="">Japanese Promo Materials</a>
+    <a href="../../about.html"><img src="../images/about-icon.png" class="icon" alt="">About</a>
+  </nav>
+
+  <!-- Toggle Button -->
+  <span class="menu-button" onclick="toggleNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+<header class="double-header">
+<div class="header-images">
+
+<!-- Second image (left-aligned) -->
+<div class="header-image-left">
+<img src="../images/officialFCheader.png" alt="">
+</div>
+
+<!-- First image (right-aligned, next to menu button) -->
+<div class="header-image-right">
+<a href="../../official.html"> <img src="../images/QIJheader_official.png" alt="Queen in Japan"></a>
+</div>
+</div>
+</header>
+
+  <!-- Content -->
+  <main>
+  <div class="text-content">
+<center>
+<H3>The Four Members of Queen are Unusually Friendly and Nice</h3> 
+<h2><I>by Ikuzo Orita, Warner Pioneer</i></h2>
+
+</center>
+<figure class="float-right img-xxsmall">
+  <img src="rogjohn.png">
+</figure>It's already been two years since Queen's Japan debut.  With three best-selling LPs and the hit single <I>Killer Queen</i>, they've become the biggest idol group since the Beatles.  Despite being both scorned and praised by nasty music critics and magazines, they've grown into a hot new band.  Their popularity in Japan has surpassed their popularity in the UK or US thanks to their enthusiastic fanbase, which primarily consists of high school girls.  Incidentally, in the latest Music Life poll, they overwhelmingly won first place, beating out previous regulars like Led Zeppelin, Yes, Emerson Lake & Palmer, Paul McCartney & Wings, and the Rolling Stones.  
+<br><br>
+I've always wondered why young people are so excited about Queen, whose music is anything but simple and idol-like.  Rather, it pursues a sophisticated, heavy metal sound that's a mix of Yes and Led Zeppelin.  When we saw them in Chicago and St. Louis, the reaction of young Americans was different from the enthusiastic reaction of fans in Japan.  They seemed to enjoy Queen's music coolly, and we were left with the strong impression that they were a group that could be listened to in the same way as Yes.  Therefore, the excessive idol-like fervor in Japan gives us record company executives mixed feelings of gratitude and anxiety.  Queen is clearly a different group from other bands that are currently making British kids go crazy, such as the Bay City Rollers or Pilot, so their success here is a reflection of the sensitive ears of Japanese kids.  I wouldn't be able to write much on that topic because the fans know Queen's music far better than I do; but I would like to write about their off-stage behavior and nature during their US and Japanese tours in my own words.
+<br><br>
+<figure class="float-left">
+  <img src="briwhisk.png">
+<figcaption>Brian with a whiskey.</figcaption>
+</figure>
+Compared to other British groups, the guys in Queen were very friendly and had the feel of a typical British youth with kind hearts.  Their leader <i>[sic]</i>, Freddie, seemed a little hard to approach at first, but once he got used to you he was surprisingly talkative.  He speaks clear and concise English.  He was also conscientious and was clearly very intelligent.  He liked playing cards, and while we were traveling on the tourbus he would often hang out with the security guards, interpreters, and us.  I remember that he mostly played Crazy Eights.
+<br><br>
+Brian, the guitarist, is a tall, nice guy with a constant smile on his face.  Perhaps a man like Brian is what they call a mensch.  He is considerate of those around him, offering words of encouragement and smiling at even the most persistent of fans.  He is so kind that we around him worry about him... it makes us wonder if he can really make it in the tough world of showbiz.  He seems to be of delicate constitution as well, and it makes sense that he had to cancel their first US tour midway through due to an internal injury.  His kindness must be what makes the girls' hearts ache.  However, as everyone knows, his guitarwork onstage is dynamic and brilliant.  He is a fine young man who respects Jimi Hendrix and has an interest in photography and cameras.  He also receives a lot of handmade things from fans and seems to be the most diligent in replying to letters.
+<br><br><figure class="float-right img-xsmall">
+  <img src="gardenparty.png">
+<figcaption>The band meets Sir F.A. Warner, Her Majesty's Ambassador to Tokyo, and his wife, Simone.</figcaption></figure>
+
+John, the bassist, seems like the most ordinary young man out of the entire band.  That said, when I mentioned that at one record concert, I found myself on the receiving end of a fierce outcry from his fans and had to apologize!  But John has a different type of kindness from Brian.  As a bassist, he is attentive to the balance of the group, and when the managers and I are talking shop, he looks in with interest and seems to really care about the nuts and bolts of the business.
+<br><br>
+
+Roger, the drummer, is the most popular guy in the group; even I was enamored when I saw his cute blond face.  He is the most talkative (but not chatty) of the four, and outwardly the friendliest.  He loves to play pachinko, and apparently snuck out of his hotel to play in Kyoto and Fukuoka.  I was particularly impressed when I heard that in Kyoto he managed to get about ¥500 out of every ¥100 spent.  He also seems to have received the most presents from fans.
+<br><br>
+All four of them drink only in moderation and are very serious, which is understandable considering that they were isolated from their hordes of fans and surrounded by security guards while they were in Japan; but they were also very earnest in America, like honor students, and unlike other British groups they didn't seem to be out to raise hell.
+<br><br>
+The Queen whirlwind will start up again in about six months!
+
+<br>
+
+<br>
+
+
+      <br>
+      <hr>
+      <br>
+
+      <center>
+        <img src="../images/BACK.png" width="75%" alt="Back" onclick="history.back()" style="cursor:pointer;">
+      </center>
+    </div> <!-- END text-content -->
+
+  </div> <!-- END content-container -->
+</main>
+
+  <!-- Footer -->
+  <footer>
+    <p>QueenInJapan.com</p>
+    <p>All fan materials, drawings, etc will be credited to the creator whenever possible.  Artwork has been stylized for this site.  Homepage illustrations and Queen Japanese crest artwork done by yours truly.  <a href="https://danielduret.nl/queenfont/">Queen font</a> by Daniel Duret.  No AI was involved in any part of this website, except to help check the coding because I don't know what I'm doing.  
+</p>
+<p>If you have any Japanese Queen memorabilia you’d like to sell, please email the webmistress at
+      <a href="mailto:queeninjapan@gmail.com">QueenInJapan@gmail.com</a></p>
+    <p>もし売りたいクイーンの日本のメモラビリアがありましたら、遠慮なく
+      <a href="mailto:queeninjapan@gmail.com">メール</a>してください。特に同人誌やファンジーンに興味があります。日本語でも連絡してもOKです。</p>
+  </footer>
+
+  <!-- Sidebar Script -->
+  <script>
+    function toggleNav() {
+     const sidebar = document.getElementById("mySidebar");
+sidebar.classList.toggle("open");
+}
+
+</script>
+<script>
+document.addEventListener("click", function (event) {
+const sidebar = document.querySelector(".sidebar");
+const menuButton = document.querySelector(".menu-button");
+
+if (sidebar.classList.contains("open") &&
+!sidebar.contains(event.target) &&
+!menuButton.contains(event.target)) {
+sidebar.classList.remove("open");
+}
+});
+  </script>
+</body>
+</html>

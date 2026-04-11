@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Queen in Japan • 日本の愛されたクイーン</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <nav id="mySidebar" class="sidebar">
+    <a href="../../index.html"><img src="../images/top-icon.png" class="icon" alt="">Home</a>
+    <a href="../../official.html"><img src="../images/official-icon.png" class="icon" alt="">Official Japanese Fanclub Magazines</a>
+    <a href="../../unofficial.html"><img src="../images/unofficial-icon.png" class="icon" alt="">Unofficial Japanese Fanclub Magazines</a>
+    <a href="../../manga.html"><img src="../images/manga-icon.png" class="icon" alt="">Queen in Manga <br>& Doujinshi</a>
+    <a href="../../press.html"><img src="../images/press-icon.png" class="icon" alt="">Queen in Japanese Press</a>
+    <a href="../../promo.html"><img src="../images/promo-icon.png" class="icon" alt="">Japanese Promo Materials</a>
+    <a href="../../about.html"><img src="../images/about-icon.png" class="icon" alt="">About</a>
+  </nav>
+
+  <!-- Toggle Button -->
+  <span class="menu-button" onclick="toggleNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+<header class="double-header">
+<div class="header-images">
+
+<!-- Second image (left-aligned) -->
+<div class="header-image-left">
+<img src="../images/officialFCheader.png" alt="">
+</div>
+
+<!-- First image (right-aligned, next to menu button) -->
+<div class="header-image-right">
+<a href="../../official.html"> <img src="../images/QIJheader_official.png" alt="Queen in Japan"></a>
+</div>
+</div>
+</header>
+
+  <!-- Content -->
+  <main>
+  <div class="text-content">
+<center>
+<H3>The Queen Fan Club of Japan Christmas Meetups</h3> 
+<h2><I>December 20th (Tokyo) and 24th (Osaka), 1975</i></h2>
+
+</center>
+<figure class="float-right img-small">
+  <img src="christmas4.png">
+</figure>
+We held a fan club Christmas gathering in both Tokyo and Osaka this year.  The railway strike caused some problems, but we managed to get everything off the ground, much to the relief of the staff!  Unfortunately, the number of people who participated was surprisingly low.  We apologize to those living in rural areas for not being able to hold more events nationwide.
+<br><br>
+The event was slated to begin at 1 PM, so the staff entered the venue at 9 AM and were extremely busy with the sound, lighting, film, stage setup, reception, and other preparations.  As we were working, fan club members started to congregate around the reception desk one-by-one.  At 12:30 we checked the clock and saw we had only a half hour left, so we hurriedly prepared the gifts and finally everyone was welcomed into the venue.
+<br><br>
+On the stage, there were large panels of Freddie, Brian, Roger, and John with a white Christmas tree hanging beside them.  At first the stage was completely dark, but when a spotlight was shone on the panels of the four of them a cheer rose from the audience and the show began!
+<br><br>
+The event was hosted by Hamasaki of Warner Pioneer and he began with a formal greeting.  This was followed by a speech by Fujikake of World Leisure and then a speech by Orita, head of the Western Music department of Warner Pioneer.  Lastly, a speech by <I>Music Life</i>'s associate editor Kaoruko Togo was given, who shared behind-the-scenes stories from ML's London coverage that weren't printed in the magazine.  It was clear that the audience and the stage were gradually becoming one!
+<br><br>
+<figure class="float-left img-xsmall">
+  <img src="christmas6.png">
+</figure>
+Hamasaki introduced two or three songs from <I>A Night at the Opera</i> and then the record played.  Some of you may have already listened to it on your record players at home, but the impact is much different when it's played on such incredible sound equipment.  If you closed your eyes, you might even have gotten the illusion that you were listening to the four members playing onstage!
+<br><br>
+After the record played, we moved on to the highly-anticipated slideshow of images from the UK tour&mdash;the most recent images of the band available.  They were brought over from London especially for this gathering and this slideshow for the fan club was the only way to see them!  As for the UK tour, as you can see on another page in this issue, the show is amazing!  The band finished the record and started touring without any time for rehearsals, and despite the tough conditions of being on the road, Queen continues to put on a lively and powerful performance.  You can see this for yourself by looking at the photos!  One thing to note is that during the UK tour, Freddie came out in a kimono for the encore, but then he quickly took it off and lo and behold, he ran around the stage in just his underwear (swimming trunks!), thrilling the audience!
+<br><br>
+<figure class="float-right img-xsmall">
+  <img src="christmas2.png">
+</figure>
+After the slideshow, we held a raffle.  We had a lot of gifts to give away, including posters and calendars, badges from Warner Pioneer, a photobook of wonderful artists from Music Life, sheet music from Rittor Music, a cassette cabinet from Muto Musical Instruments, knee-high socks from Rizuisho, and a stuffed doll from Monoka Printing.  We had a LOT of things, and everyone was given a chance to win a prize in the raffle.  We'll also be holding a lottery to give away more stuff to people who were unable to attend.
+<br><br>
+
+After the raffle, Emiko Umeno and Yumiko Shibasaki in Tokyo and Yoshimi Fukada in Osaka each spoke about Queen, representing views of the Fan Club.
+<br><br>
+Finally... we hit the climax of the events: the film concert!  It began with the film of <I>Liar</i> <I>[I'm assuming either from the Rainbow '74 footage that was <a href="../../unofficial/3/filmconcert.html">previously exhibited</a> around Japan, or one of the 1973 promo videos]</i>, and then the <I>Live in Japan</i> film* started to thunderous applause and screams!  Everyone's screams resonated throughout the venue as each of them appeared on-screen: "Roger, kyaaa!" "Ahhh, Freddie!" "Brian, I love you!" "John, you're so cute!"  After <i>Live in Japan</i>, the last thing screened was <a href="../../press/TV.html#sutaa">One Thousand and One Nights of Stars</a>.  We had the TV video converted to film especially for this day, due to all of your requests.
+<br><br>
+And with that, the Christmas gathering came to a successful close.  We also presented everyone with a signed poster of Queen, and we will also be raffling away three more to people who were unable to attend.  A message from Queen themselves was supposed to arrive in time for this event, but due to the strike it was delayed and arrived on the 25th, so we're really sorry that you weren't able to hear it.**
+<br><br>
+<figure class="float-left img-xsmall">
+  <img src="christmas1.png">
+</figure>
+After the event, we noticed that one or two newspaper clippings from the UK that were displayed on the bulletinboard had gone missing.  These are valuable documents, so please make sure not to let this happen again in the future.
+<br><br>
+We would like to express our sincere gratitude to Warner Pioneer, the stage production company Ecole Kikaku, the sound crew, the lighting crew, and the Watanabe Productions Friendship Society.  We would love to see more people participate in the next gathering!
+<br><br>
+<I>*Footnote: There is no further elaboration about this <i>"Live in Japan"<i> film, but it was most likely clips from the press conference and tea ceremony that the band participated in back in April of 1975.  There's also a possibility that they screened part of the May 1st, 1975 Tokyo concert at the Budoukan as well, as this footage had been shown on TV earlier in the year.  More can be read about this concert date at the excellent sites <a href="https://www.queenconcerts.com/detail/live/185/queen-live-01-05-1975-nippon-budokan-tokyo-japan.html">QueenConcerts.com</a> and <a href="https://queenlive.ca/queen/75-05-01.htm">QueenLive.ca</a>.
+<br><br>
+**The audio message from the band was most likely simple due to the language barrier, but can probably be considered lost media.</i>
+
+
+
+<br>
+
+<br>
+
+<br>
+      <br>
+      <hr>
+      <br>
+
+      <center>
+        <img src="../images/BACK.png" width="75%" alt="Back" onclick="history.back()" style="cursor:pointer;">
+      </center>
+    </div> <!-- END text-content -->
+
+  </div> <!-- END content-container -->
+</main>
+
+  <!-- Footer -->
+  <footer>
+    <p>QueenInJapan.com</p>
+    <p>All fan materials, drawings, etc will be credited to the creator whenever possible.  Artwork has been stylized for this site.  Homepage illustrations and Queen Japanese crest artwork done by yours truly.  <a href="https://danielduret.nl/queenfont/">Queen font</a> by Daniel Duret.  No AI was involved in any part of this website, except to help check the coding because I don't know what I'm doing.  
+</p>
+<p>If you have any Japanese Queen memorabilia you’d like to sell, please email the webmistress at
+      <a href="mailto:queeninjapan@gmail.com">QueenInJapan@gmail.com</a></p>
+    <p>もし売りたいクイーンの日本のメモラビリアがありましたら、遠慮なく
+      <a href="mailto:queeninjapan@gmail.com">メール</a>してください。特に同人誌やファンジーンに興味があります。日本語でも連絡してもOKです。</p>
+  </footer>
+
+  <!-- Sidebar Script -->
+  <script>
+    function toggleNav() {
+     const sidebar = document.getElementById("mySidebar");
+sidebar.classList.toggle("open");
+}
+
+</script>
+<script>
+document.addEventListener("click", function (event) {
+const sidebar = document.querySelector(".sidebar");
+const menuButton = document.querySelector(".menu-button");
+
+if (sidebar.classList.contains("open") &&
+!sidebar.contains(event.target) &&
+!menuButton.contains(event.target)) {
+sidebar.classList.remove("open");
+}
+});
+  </script>
+</body>
+</html>
