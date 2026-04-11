@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Queen in Japan • 日本の愛されたクイーン</title>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+  <!-- Sidebar -->
+  <nav id="mySidebar" class="sidebar">
+    <a href="../index.html"><img src="../images/top-icon.png" class="icon" alt="">Home</a>
+    <a href="../official.html"><img src="../images/official-icon.png" class="icon" alt="">Official Japanese Fanclub Magazines</a>
+    <a href="../unofficial.html"><img src="../images/unofficial-icon.png" class="icon" alt="">Unofficial Japanese Fanclub Magazines</a>
+    <a href="../manga.html"><img src="../images/manga-icon.png" class="icon" alt="">Queen in Manga <br>& Doujinshi</a>
+    <a href="../press.html"><img src="../images/press-icon.png" class="icon" alt="">Queen in Japanese Press</a>
+    <a href="../promo.html"><img src="../images/promo-icon.png" class="icon" alt="">Japanese Promo Materials</a>
+    <a href="../about.html"><img src="../images/about-icon.png" class="icon" alt="">About</a>
+  </nav>
+
+  <!-- Toggle Button -->
+  <span class="menu-button" onclick="toggleNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+<header class="double-header">
+  <div class="header-images">
+
+    <!-- Second image (left-aligned) -->
+    <div class="header-image-left">
+      <img src="Lucifer/rosecross_header.png" alt="">
+    </div>
+
+    <!-- First image (right-aligned, next to menu button) -->
+    <div class="header-image-right">
+      <a href="../manga.html"><img src="images/QIJheader_manga.png" alt=""></a>
+    </div>
+
+  </div>
+</header>
+
+
+
+
+  <!-- Content -->
+  <main>
+    <div class="text-content">
+
+The Rosicrucians, in their own words:
+<br><br><i>
+"We were a group of friends who loved manga and rock, looking for an outlet for our energy, talents, and fandom.  But joining a fanclub was boring, and the usual manken doujin groups weren't cutting it, so we decided to try our hand at creating something new for ourselves, something that wasn't merely a doujinshi or fan newsletter.  So we, a bunch of pioneers (?) and complete unknowns even in the world of amateur doujins at the time, created our own magazine called </I>Lucifer<i>, piggybacking on what we saw.  We forced our close friends to buy it, and sent it to manga artists, record companies, and the like, not expecting anyone to even look at it.  It was just a little bit of fun, something we did on a whim between submissions to other publications.  And likewise, just for fun we came up with the name of our circle, the fantastical "Rosicrucians" (after the name of the secret society of Christian Rosenkreuz, my idol).  
+<br><br>
+<figure class="float-right img-small">
+  <img src="Lucifer/RC/RC3.png" alt="">
+</figure>
+</I>Lucifer<i> seemed like it might get boring and disappear at any moment, but it gradually gained an unexpected popularity.  When we advertised it in the reader's columns of various music magazines, we were inundated with inquiries and received favorable reviews from all quarters.  We also had wonderful members join us, not only as artists but even moreso as friends, and while we were half happy and half anxious, we had no choice but to work hard.  Two and a half years later, that circle, which started with just four members, went through many iterations and ended its first chapter.  Writing the manuscript, editing, gathering materials, binding, and so on all required considerable time and mental commitment, but for us as staff, it was undoubtedly a most enjoyable and valuable time.  For us now, it was truly the first step in our journey, and we gained so much from it."</i>
+<br><br>
+
+The Rosicrucians went through many iterations and released many publications with different themes.  The initial rock-centric iteration was active from 1975 to 1977, with headquarters in Nagoya.  After a hiatus, they reformed as R•C II and then again as R•C III and IV.  The initial Rosicrucians numbered thirteen and contained a lot of familiar names&mdash;Shion Yoshimura, head editor of Manken Queen; <a href="../manga/Ueto.html">Nachi Mikami</a>; the prolific <a href="POT/LongAway.html">Yuri Kitagawa</a>; and Yayoi Takeda (who was the illustrator of the front cover for <a href="../unofficial/QT4.html">Queen Times vol. 4</a>, among other things for the QFCJ).  R•C was a very talented group who published works with darker and more unique themes than some other doujin groups of the time.  Their rock publications included <I>Lucifer</i> and <I>Jesus</i>, as well as an <I>Anthology</i> published in the 80s as a retrospective.  Their declared "main band" was Queen.
+
+<br><br>
+<I>Lucifer</i> contained not only illustrations but rock concert reports, reviews, and the like.  It was published monthly through 1977.  Several volumes from 1975 and 1976 were Queen-centric, although tidbits were be scattered throughout.  
+<br><br>
+<span style="font-size: 12px;">
+私はこの同人誌のクイーン関連の号、特に1昭和５０の8月号と昭和５１の４月、５月号を探しています。もしお持ちで売却にご興味があれば、<a href="mailto:queeninjapan@gmail.com">メール</a>でご連絡ください。</span>
+
+<br><br>
+
+<a href="Lucifer13.html"><span style="font-weight: 900;">Lucifer</span> &mdash; September 1976</a> &mdash; Bowie feature
+<br>
+<br>
+<a href="RCanthology.html"><span style="font-weight: 900;">Anthology</span> &mdash; January 1980</a> &mdash; retrospective
+<br><br>
+<br>
+<hr>
+<br>
+<center>
+<img src="../images/BACK.png" width="45%" alt="Back" onclick="history.back()" style="cursor:pointer;">
+</center>
+</main>
+<div>
+</div>
+</main>
+
+  <!-- Footer -->
+  <footer>
+    <p>QueenInJapan.com</p>
+    <p>All fan materials, drawings, etc will be credited to the creator whenever possible.  Artwork has been stylized for this site.  Homepage illustrations and Queen Japanese crest artwork done by yours truly.  <a href="https://danielduret.nl/queenfont/">Queen font</a> by Daniel Duret.  
+<br>No AI was involved in any part of this website, except to help check the coding because I don't know what I'm doing.  
+</p>
+<p>If you have any Japanese Queen memorabilia you’d like to sell, please email the webmistress at
+      <a href="mailto:queeninjapan@gmail.com">QueenInJapan@gmail.com</a></p>
+    <p>もし売りたいクイーンの日本のメモラビリアがありましたら、遠慮なく
+      <a href="mailto:queeninjapan@gmail.com">メール</a>してください。特に同人誌やファンジーンに興味があります。日本語でも連絡してもOKです。</p>
+  </footer>
+
+  <!-- Sidebar Script -->
+  <script>
+    function toggleNav() {
+     const sidebar = document.getElementById("mySidebar");
+sidebar.classList.toggle("open");
+}
+  </script>
+<script>
+document.addEventListener("click", function (event) {
+  const sidebar = document.querySelector(".sidebar");
+  const menuButton = document.querySelector(".menu-button");
+
+  // If sidebar is open AND click is outside both sidebar & button → close it
+  if (
+    sidebar.classList.contains("open") &&
+    !sidebar.contains(event.target) &&
+    !menuButton.contains(event.target)
+  ) {
+    sidebar.classList.remove("open");
+  }
+});
+</script>
+
+</body>
+</html>
