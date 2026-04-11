@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Queen in Japan • 日本の愛されたクイーン</title>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body class="layout-leftimage">
+
+  <!-- Sidebar -->
+  <nav id="mySidebar" class="sidebar">
+    <a href="../index.html"><img src="images/top-icon.png" class="icon" alt="">Home</a>
+    <a href="../official.html"><img src="images/official-icon.png" class="icon" alt="">Official Japanese Fanclub Magazines</a>
+    <a href="../unofficial.html"><img src="images/unofficial-icon.png" class="icon" alt="">Unofficial Japanese Fanclub Magazines</a>
+    <a href="../manga.html"><img src="images/manga-icon.png" class="icon" alt="">Queen in Manga <br>& Doujinshi</a>
+    <a href="../press.html"><img src="images/press-icon.png" class="icon" alt="">Queen in Japanese Press</a>
+    <a href="../promo.html"><img src="images/promo-icon.png" class="icon" alt="">Japanese Promo Materials</a>
+    <a href="../about.html"><img src="images/about-icon.png" class="icon" alt="">About</a>
+  </nav>
+
+  <!-- Toggle Button -->
+  <span class="menu-button" onclick="toggleNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header id="home">
+  <a href="../official.html">  <h1><img src="images/QIJheader_official.png" alt="Queen in Japan"></h1></a>
+  </header>
+
+  <!-- Content -->
+  <main>
+  <div class="content-container">
+    <img src="8/fc8_cover.jpeg" alt="Front Page" class="main-image">
+
+    <div class="text-content">
+
+<h2>Vol. 8 &mdash; Summer 1977 </h2>
+
+        <figure class="float-left img-xxsmall">
+  <img src="8/fc8_3.jpeg">
+</figure>
+This issue contains another short note from Brian and a couple of translated interviews with both "Frddie" and Brian.  A Japanese trip to Los Angeles and San Fransisco for the US tour is planned, and will cost ¥27,000 per person, or around $537 USD in 2025 money.  There's also a section with some guitar tabs for <I>Ogre Battle</i> and <I>Now I'm Here.</i> 
+<br><br><br>
+<br><br><br>
+           <figure class="float-right img-xsmall">
+  <img src="8/fc8_1.jpeg">
+<figcaption>Brian got married this year. <br>By Miu Morikawa</figcaption>
+</figure> 
+In a section in the back for fan connections, this unexpected ad is placed:
+<br><br>
+
+<I>We are a group of people who love perversion and seek pleasure.  We are a specialized group for those who want to draw and read about rock, fucking, and sodomy, in order to relieve frustration.  We are looking for people who are confident in their drawing and writing skills.  Please enclose a ¥50 stamp and send it to...</i>
+<br><br>
+<a href="../policy.html">Boys Love content</a> ran rampant in rock doujinshi groups at the time, but it's still shocking to see something that explicit in an official Queen publication.
+ 
+ <br><br>
+<center>
+<img src="8/fc8_2.jpeg" width="65%">
+<br><I>by Yuuko Hara</i></center>
+
+
+      <br>
+      <hr>
+      <br>
+
+      <center>
+        <img src="images/BACK.png" width="75%" alt="Back" onclick="history.back()" style="cursor:pointer;">
+      </center>
+    </div> <!-- END text-content -->
+
+  </div> <!-- END content-container -->
+</main>
+
+  <!-- Footer -->
+  <footer>
+    <p>QueenInJapan.com</p>
+    <p>All fan materials, drawings, etc will be credited to the creator whenever possible.  Artwork has been stylized for this site.  Homepage illustrations and Queen Japanese crest artwork done by yours truly.  <a href="https://danielduret.nl/queenfont/">Queen font</a> by Daniel Duret.  No AI was involved in any part of this website, except to help check the coding because I don't know what I'm doing.  
+</p>
+<p>If you have any Japanese Queen memorabilia you’d like to sell, please email the webmistress at
+      <a href="mailto:queeninjapan@gmail.com">QueenInJapan@gmail.com</a></p>
+    <p>もし売りたいクイーンの日本のメモラビリアがありましたら、遠慮なく
+      <a href="mailto:queeninjapan@gmail.com">メール</a>してください。特に同人誌やファンジーンに興味があります。日本語でも連絡してもOKです。</p>
+  </footer>
+
+  <!-- Sidebar Script -->
+  <script>
+    function toggleNav() {
+     const sidebar = document.getElementById("mySidebar");
+sidebar.classList.toggle("open");
+}
+
+</script>
+<script>
+document.addEventListener("click", function (event) {
+const sidebar = document.querySelector(".sidebar");
+const menuButton = document.querySelector(".menu-button");
+
+if (sidebar.classList.contains("open") &&
+!sidebar.contains(event.target) &&
+!menuButton.contains(event.target)) {
+sidebar.classList.remove("open");
+}
+});
+  </script>
+</body>
+</html>

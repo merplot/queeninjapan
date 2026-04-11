@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Queen in Japan • 日本の愛されたクイーン</title>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body class="layout-leftimage">
+
+  <!-- Sidebar -->
+  <nav id="mySidebar" class="sidebar">
+    <a href="../index.html"><img src="images/top-icon.png" class="icon" alt="">Home</a>
+    <a href="../official.html"><img src="images/official-icon.png" class="icon" alt="">Official Japanese Fanclub Magazines</a>
+    <a href="../unofficial.html"><img src="images/unofficial-icon.png" class="icon" alt="">Unofficial Japanese Fanclub Magazines</a>
+    <a href="../manga.html"><img src="images/manga-icon.png" class="icon" alt="">Queen in Manga <br>& Doujinshi</a>
+    <a href="../press.html"><img src="images/press-icon.png" class="icon" alt="">Queen in Japanese Press</a>
+    <a href="../promo.html"><img src="images/promo-icon.png" class="icon" alt="">Japanese Promo Materials</a>
+    <a href="../about.html"><img src="images/about-icon.png" class="icon" alt="">About</a>
+  </nav>
+
+  <!-- Toggle Button -->
+  <span class="menu-button" onclick="toggleNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header id="home">
+  <a href="../official.html">  <h1><img src="images/QIJheader_official.png" alt="Queen in Japan"></h1></a>
+  </header>
+
+  <!-- Content -->
+  <main>
+  <div class="content-container">
+    <img src="6/fc6_cover.jpeg" alt="Front Page" class="main-image">
+
+    <div class="text-content">
+
+<h2>Vol. 6 &mdash; Winter 1977 </h2>
+
+ 
+           <figure class="float-right img-small">
+  <img src="6/fc6_1.jpeg">
+<figcaption>by Kunio Kuroda</figcaption>
+</figure>  
+By the time Vol. 6 came out, <I>A Day At The Races</i> had been released in Japan and <I>te wo toriatte</i> was a big hit with Japanese audiences for obvious reasons.  There is a message from Warner Pioneer's Matsubayashi on this subject, as well as a note from the new editor of the fan club, Keiji Inouye.  He says, "<I>This year, I will be in my mid-twenties.  I will do my best not to be outdone by teenagers.</i>"  
+<br><br>
+There's a small section on the winter fan club gathering, some odd fanart, and a story on an early Japanese Queen tribute band named "Wink".  The guitarist notes that "since Brian is a scientist, I'm not in his league".  He also notes that he's using a Greco BM-900 Red Special replica guitar, which was an early Japanese Red Special replica that was produced without Brian's knowledge.  Brian caught wind of this sometime in the 80s and reached out to the company to collaborate, only to be ignored (a very Japanese response).  Eventually Brian began producing his own line of Red Special replicas.
+<br><br>
+<I>A Day at the Races</i> seems to be a polarizing LP for the Japanese fandom at this point&mdash;there are a lot of letters and chatter about Queen's new "pop" direction, and a lot of fans are disappointed with the perception that they're abandoning their heavier sound.  Meanwhile, the fan from the prior issue who wrote about a missed connection with a foreign man who looked like Roger writes in again to report that in response, they were sent an envelope full of razorblades.
+<br><br>
+The pictures featured on the cover are going on two years old by now.
+<br><br>
+<a href="6/tewo.html">te wo toriatte: Let's Go Hand-in-Hand</a> by Tenpei Matsubayashi
+
+
+
+
+<br><br>
+      <br>
+      <hr>
+      <br>
+
+      <center>
+        <img src="images/BACK.png" width="75%" alt="Back" onclick="history.back()" style="cursor:pointer;">
+      </center>
+    </div> <!-- END text-content -->
+
+  </div> <!-- END content-container -->
+</main>
+
+  <!-- Footer -->
+  <footer>
+    <p>QueenInJapan.com</p>
+    <p>All fan materials, drawings, etc will be credited to the creator whenever possible.  Artwork has been stylized for this site.  Homepage illustrations and Queen Japanese crest artwork done by yours truly.  <a href="https://danielduret.nl/queenfont/">Queen font</a> by Daniel Duret.  No AI was involved in any part of this website, except to help check the coding because I don't know what I'm doing.  
+</p>
+<p>If you have any Japanese Queen memorabilia you’d like to sell, please email the webmistress at
+      <a href="mailto:queeninjapan@gmail.com">QueenInJapan@gmail.com</a></p>
+    <p>もし売りたいクイーンの日本のメモラビリアがありましたら、遠慮なく
+      <a href="mailto:queeninjapan@gmail.com">メール</a>してください。特に同人誌やファンジーンに興味があります。日本語でも連絡してもOKです。</p>
+  </footer>
+
+  <!-- Sidebar Script -->
+  <script>
+    function toggleNav() {
+     const sidebar = document.getElementById("mySidebar");
+sidebar.classList.toggle("open");
+}
+
+</script>
+<script>
+document.addEventListener("click", function (event) {
+const sidebar = document.querySelector(".sidebar");
+const menuButton = document.querySelector(".menu-button");
+
+if (sidebar.classList.contains("open") &&
+!sidebar.contains(event.target) &&
+!menuButton.contains(event.target)) {
+sidebar.classList.remove("open");
+}
+});
+  </script>
+</body>
+</html>

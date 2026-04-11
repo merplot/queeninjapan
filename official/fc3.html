@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Queen in Japan • 日本の愛されたクイーン</title>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body class="layout-leftimage">
+
+  <!-- Sidebar -->
+  <nav id="mySidebar" class="sidebar">
+    <a href="../index.html"><img src="images/top-icon.png" class="icon" alt="">Home</a>
+    <a href="../official.html"><img src="images/official-icon.png" class="icon" alt="">Official Japanese Fanclub Magazines</a>
+    <a href="../unofficial.html"><img src="images/unofficial-icon.png" class="icon" alt="">Unofficial Japanese Fanclub Magazines</a>
+    <a href="../manga.html"><img src="images/manga-icon.png" class="icon" alt="">Queen in Manga <br>& Doujinshi</a>
+    <a href="../press.html"><img src="images/press-icon.png" class="icon" alt="">Queen in Japanese Press</a>
+    <a href="../promo.html"><img src="images/promo-icon.png" class="icon" alt="">Japanese Promo Materials</a>
+    <a href="../about.html"><img src="images/about-icon.png" class="icon" alt="">About</a>
+  </nav>
+
+  <!-- Toggle Button -->
+  <span class="menu-button" onclick="toggleNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header id="home">
+  <a href="../official.html">  <h1><img src="images/QIJheader_official.png" alt="Queen in Japan"></h1></a>
+  </header>
+
+  <!-- Content -->
+  <main>
+  <div class="content-container">
+    <img src="3/fc3_cover.jpeg" alt="Front Page" class="main-image">
+
+    <div class="text-content">
+
+<h2>Vol. 3 &mdash; Spring 1976 </h2>
+
+ 
+           <figure class="float-right img-small">
+  <img src="3/fc3_2.jpeg">
+</figure>  
+Vol. 3 came out after Queen's second Japanese tour in 1976 and was entitled "Why are they so amazing??  All About Queen's Japanese Tour".  It contains several pages of photos from the tour as well as detailed info on the sound and lighting they employed.  All the usual features are there, as well as an interview with the "Tokyo Patrol", the four bodyguards hired to keep the band from getting mauled while in Japan, and a forward by Hamasaki from Warner Pioneer.
+<br><br>
+          <figure class="float-left img-xxsmall">
+  <img src="3/JHarris.jpg">
+<figcaption>Roadie John Harris as he appears on the back of <i>Queen</I></figcaption>
+</figure>
+Interesting want ads include a kid who wants someone to sell them John's autograph for under ¥500 (10 USD in 2025 money!); a request to borrow an audio cassette tape copy of Queen's appearance on <a href="../press/TV.html#sutaa"><I>Star Sen</i></a> or <a href="../press/TV.html#pops"><i>Pops in Picture</i></a>, with an offer to lend a live Queen audio recording in return; and a request for a picture of roadie John Harris.
+<br>
+<br>
+<br><br><br>
+
+<a href="3/nido.html">A Word Regarding Queen's Second Japanese Tour</a> by Yuji Hamasaki of Warner Pioneer
+<br><br>
+<a href="3/patrol.html">Interview with the Tokyo Patrol</a>
+<br>
+<br>
+<a href="3/lighting.html">Discover the Secrets of Queen's Sound and Lighting!</a>
+<br><br>
+<a href="3/mininews.html">mini news</a>
+<br><br>
+      <br>
+      <hr>
+      <br>
+
+      <center>
+        <img src="images/BACK.png" width="75%" alt="Back" onclick="history.back()" style="cursor:pointer;">
+      </center>
+    </div> <!-- END text-content -->
+
+  </div> <!-- END content-container -->
+</main>
+
+  <!-- Footer -->
+  <footer>
+    <p>QueenInJapan.com</p>
+    <p>All fan materials, drawings, etc will be credited to the creator whenever possible.  Artwork has been stylized for this site.  Homepage illustrations and Queen Japanese crest artwork done by yours truly.  <a href="https://danielduret.nl/queenfont/">Queen font</a> by Daniel Duret.  No AI was involved in any part of this website, except to help check the coding because I don't know what I'm doing.  
+</p>
+<p>If you have any Japanese Queen memorabilia you’d like to sell, please email the webmistress at
+      <a href="mailto:queeninjapan@gmail.com">QueenInJapan@gmail.com</a></p>
+    <p>もし売りたいクイーンの日本のメモラビリアがありましたら、遠慮なく
+      <a href="mailto:queeninjapan@gmail.com">メール</a>してください。特に同人誌やファンジーンに興味があります。日本語でも連絡してもOKです。</p>
+  </footer>
+
+  <!-- Sidebar Script -->
+  <script>
+    function toggleNav() {
+     const sidebar = document.getElementById("mySidebar");
+sidebar.classList.toggle("open");
+}
+
+</script>
+<script>
+document.addEventListener("click", function (event) {
+const sidebar = document.querySelector(".sidebar");
+const menuButton = document.querySelector(".menu-button");
+
+if (sidebar.classList.contains("open") &&
+!sidebar.contains(event.target) &&
+!menuButton.contains(event.target)) {
+sidebar.classList.remove("open");
+}
+});
+  </script>
+</body>
+</html>
