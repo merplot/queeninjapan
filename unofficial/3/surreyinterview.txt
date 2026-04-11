@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Queen in Japan • 日本の愛されたクイーン</title>
+
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+
+  <!-- Sidebar -->
+  <nav id="mySidebar" class="sidebar">
+    <a href="../../index.html"><img src="../images/top-icon.png" class="icon" alt="">Home</a>
+    <a href="../../official.html"><img src="../images/official-icon.png" class="icon" alt="">Official Japanese Fanclub Magazines</a>
+    <a href="../../unofficial.html"><img src="../images/unofficial-icon.png" class="icon" alt="">Unofficial Japanese Fanclub Magazines</a>
+    <a href="../../manga.html"><img src="../images/manga-icon.png" class="icon" alt="">Queen in Manga <br>& Doujinshi</a>
+    <a href="../../press.html"><img src="../images/press-icon.png" class="icon" alt="">Queen in Japanese Press</a>
+    <a href="../../promo.html"><img src="../images/promo-icon.png" class="icon" alt="">Japanese Promo Materials</a>
+    <a href="../../about.html"><img src="../images/about-icon.png" class="icon" alt="">About</a>
+  </nav>
+
+  <!-- Toggle Button -->
+  <span class="menu-button" onclick="toggleNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+<header class="double-header">
+  <div class="header-images">
+
+    <!-- Second image (left-aligned) -->
+    <div class="header-image-left">
+      <img src="../QueenTimes/QTvol3header.png" alt="">
+    </div>
+
+    <!-- First image (right-aligned, next to menu button) -->
+    <div class="header-image-right">
+      <a href="../../unofficial.html"><img src="../images/QIJheader_unofficial.png" alt=""></a>
+    </div>
+
+  </div>
+</header>
+
+
+
+
+  <!-- Content -->
+  <main>
+    <div class="text-content">
+        
+<center>
+<H3>Interview with Brian May</h3> 
+<h2><I>conducted in Surrey, England via translator, August 1974</i></h2>
+<br>
+</center>
+
+Q1: What features does your homemade guitar possess?
+<br><br>
+<b>Brian: Developing this guitar helped me to grow my own will and comprehension thereof!  This guitar can put out a wide range of sounds due to the different pickups, and because of that it has great organic-sounding feedback.  It also can put out sophisticated musical effects, and the tremolo has an insane amount of reach.  Plus it uses this independent roller and a special bridge for the strings.  I've really quite an attachment to this guitar, and it would be really difficult to find a replacement if something were to happen to it.</b>
+<br><br>
+<br><br>
+Q2: How long did you study before constructing your guitar?  Did you make it all by yourself?
+<br><br>
+<b>Brian: I don't have any actual formal training as a luthier.  But when my dad and I began to work on it together, we thought it through very thoroughly and researched what brands and parts we wanted to use.  I've always enjoyed building these things.</b>
+<br><br><br><br>
+Q3: What was something that took painstaking effort when building this guitar?
+<br><br>
+<B>Brian: Hmm, well nothing specific.  But I had to pay the most attention when shaping the neck of the guitar.</b>
+<br><br><br><br>
+Q4: Are there features you would like to add to it next?
+<br><br><b>
+Brian: I'd like to put in an internal booster, although there are ways to substitute that.  But anytime I start thinking I might like to do something new to this guitar, I realize it's mainly an issue of having the time to do it... that said, this guitar has remained current for about nine years years or so now regardless.</b>
+<br><br><br><br>
+Q5: What does composing a song look like for you?
+<br><br>
+<b>Brian: This is a hard one.  Regardless of if I'm somewhere with friends and completely detached from music, or if I'm alone by myself somewhere, I'm usually mindful of ideas that might pop up.  But sometimes an idea will be born when I'm playing my guitar.</b>
+<br><br><br><br>
+Q6: We love your songs!  Did you base <I>Some Day One Day</i> and <I>Father to Son</i> on actual experiences in your life?  Or did they come strictly from your imagination?
+<br><br>
+<B>Brian: Thank you so much!  That makes me so happy to hear.  As far as my songs goes, I think I'm always trying to seek something.  <I>Some Day One Day</i> was based on something I really experienced, whereas <I>Father to Son</i> has an abstract feeling of "Where is this person's life headed?"</b>
+<br><br><br><br>
+Q7: What would you like to really come through in your songs?
+<br><br>
+<b>Brian: Hmm... I guess I want to make people think deeply about things.</b>
+<br><br><br><br>
+Q8: Between <I>Princess of Terror [the Japanese title of </i>Queen I<i>]</i> and <I>Queen II</i>, which song do you like best?
+<br><br>
+<B>Brian: Oh it's too hard to decide.  Maybe <I>The Night Comes Down</i>.</b>
+<br><br><br><br>
+Q9: Of Queen's two albums, what parts are you most proud of?
+<br><br>
+<b>Brian: Parts of <I>White Queen</i> and <I>Black Queen</i>, as well as <I>Procession</i>.</b>
+<br><br><br><br>
+Q10: On which song do you like your guitarwork best?
+<br><br>
+<b>Brian: The middle part of <I>My Fairy King</i>.</b>
+<br><br><br><br>
+Q11: What kind of costumes do you wear onstage?
+<br><br>
+<b>Brian: Queenly things!</b>
+<br><br><br><br>
+Q12: What is the importance of your costumes and stage makeup?
+<br><br>
+<b>Brian: They're really important to the image, but the music is vital as well.</B>
+<br><br><br><br>
+Q13: The Who, The Beatles, Jimi Hendrix, and Hank Marvin–can you go through and say how they each influenced you?
+<br><br>
+<b>Brian: The Who&mdash;their excitement.  The Beatles&mdash;everything.  Hendrix&mdash;power and beauty.  Hank Marvin&mdash;I initially tried to emulate his technique.</b>
+<br><br><br><br>
+Q14: What type of music did you play with Smile?
+<br><br>
+<b>Brian: It resembled what Queen plays now, but it was far simpler.</b>
+<br><br><br><br>
+Q15: What is Queen's raison d'etre?
+<br><br>
+<b>Brian: Impossible to say!</b>
+<br><br><br><br>
+Q16: What kind of music have you been listening to lately?
+<br><br>
+<b>Brian: Jeff Beck and Joni Mitchell.</b>
+<br><br><br><br>
+Q17: What kind of people do you respect?
+<br><br>
+<b>Brian: Everybody.</b>
+<br><br><br><br>
+Q18: Can you be more specific?
+<br><br>
+<b>Brian: The Beatles, Bob Dylan, Herman Hesse, C.J. Lewis.</b>
+<br>
+<br>
+<br>
+<br>
+<I>[Footnote: This interview was conducted around the time Brian was convalescing from his 1974 illnesses.  The other circumstances of this interview are not explained nor elaborated on in any of the QFCJ materials I have seen thus far.]</i>
+<br>
+<br>
+<br>
+<hr>
+<br>
+<center>
+<img src="../images/BACK.png" width="75%" alt="Back" onclick="history.back()" style="cursor:pointer;">
+</center>
+</main>
+</div>
+</div>
+</main>
+  </main>
+</div>
+</div>
+</main>
+
+  <!-- Footer -->
+  <footer>
+    <p>QueenInJapan.com</p>
+    <p>All fan materials, drawings, etc will be credited to the creator whenever possible.  Artwork has been stylized for this site.  Homepage illustrations and Queen Japanese crest artwork done by yours truly.  <a href="https://danielduret.nl/queenfont/">Queen font</a> by Daniel Duret.  
+<br>No AI was involved in any part of this website, except to help check the coding because I don't know what I'm doing.  
+</p>
+<p>If you have any Japanese Queen memorabilia you’d like to sell, please email the webmistress at
+      <a href="mailto:queeninjapan@gmail.com">QueenInJapan@gmail.com</a></p>
+    <p>もし売りたいクイーンの日本のメモラビリアがありましたら、遠慮なく
+      <a href="mailto:queeninjapan@gmail.com">メール</a>してください。特に同人誌やファンジーンに興味があります。日本語でも連絡してもOKです。</p>
+  </footer>
+
+  <!-- Sidebar Script -->
+  <script>
+    function toggleNav() {
+     const sidebar = document.getElementById("mySidebar");
+sidebar.classList.toggle("open");
+}
+  </script>
+<script>
+document.addEventListener("click", function (event) {
+  const sidebar = document.querySelector(".sidebar");
+  const menuButton = document.querySelector(".menu-button");
+
+  // If sidebar is open AND click is outside both sidebar & button → close it
+  if (
+    sidebar.classList.contains("open") &&
+    !sidebar.contains(event.target) &&
+    !menuButton.contains(event.target)
+  ) {
+    sidebar.classList.remove("open");
+  }
+});
+</script>
+
+</body>
+</html>

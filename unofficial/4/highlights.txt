@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Queen in Japan • 日本の愛されたクイーン</title>
+
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+
+  <!-- Sidebar -->
+  <nav id="mySidebar" class="sidebar">
+    <a href="../../index.html"><img src="../images/top-icon.png" class="icon" alt="">Home</a>
+    <a href="../../official.html"><img src="../images/official-icon.png" class="icon" alt="">Official Japanese Fanclub Magazines</a>
+    <a href="../../unofficial.html"><img src="../images/unofficial-icon.png" class="icon" alt="">Unofficial Japanese Fanclub Magazines</a>
+    <a href="../../manga.html"><img src="../images/manga-icon.png" class="icon" alt="">Queen in Manga <br>& Doujinshi</a>
+    <a href="../../press.html"><img src="../images/press-icon.png" class="icon" alt="">Queen in Japanese Press</a>
+    <a href="../../promo.html"><img src="../images/promo-icon.png" class="icon" alt="">Japanese Promo Materials</a>
+    <a href="../../about.html"><img src="../images/about-icon.png" class="icon" alt="">About</a>
+  </nav>
+
+  <!-- Toggle Button -->
+  <span class="menu-button" onclick="toggleNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+<header class="double-header">
+  <div class="header-images">
+
+    <!-- Second image (left-aligned) -->
+    <div class="header-image-left">
+      <img src="../QueenTimes/QTvol4header.png" alt="">
+    </div>
+
+    <!-- First image (right-aligned, next to menu button) -->
+    <div class="header-image-right">
+   <a href="../../unofficial.html">   <img src="../images/QIJheader_unofficial.png" alt=""></a>
+    </div>
+
+  </div>
+</header>
+
+
+
+
+  <!-- Content -->
+  <main>
+    <div class="text-content">
+        
+<center>
+<H3>Queen's First Japanese Performance Highlights</h3> 
+
+
+<h2><I>April 19th, 1975</i></h2>
+By Itsuko Furubayashi
+</center>
+
+<br>
+<br>
+<figure class="float-right img-small">
+  <img src="../QueenTimes/4/freddieperform.png" alt="">
+</figure>
+As soon as <I>Procession</i> began, the smoke machine filled the entire place with fog.  So many girls shrieking!  And inevitably, the Queen concert began, attacking us with a pleasant sense of urgency.  Today, on the 19th, it was impossible to calmly enjoy the show, but at other performances the ushers pushed people back so we were able to enjoy ourselves more.
+<br>
+(It really is better when the ushers push back!  People who say otherwise are letting their egos get the better of them... think of the inconvenience you are causing others by not being kept in line!)
+<br><br>
+The second song was always <I>Now I'm Here</i>.  The light show for this song was elaborate, and at the climax of the song, a big flash of light came, illuminating Freddie in all of his glorious action.  The PA system sounded great as well.
+<br><br>The intro for the third song, <I>Ogre Battle</i>, was quite intense.  An impressive "battle" was born from Brian's guitar, and the lighting at that part was interesting also.  Green lights illuminated the stage in a creepy manner, and there was this feeling that a man-eating demon might pop out in the theater at any moment... it was very dramatic.  It truly was quite a performance, with no sense of insincerity whatsoever.  The chorus of this song was perfectly defined, and Brian's guitar work was bright and clear.
+<br><br>Next was <i>Father to Son</i>.  The ending had a heavier, more lively <I>[lit. cheerful]</i> arrangement than on the record.  Maybe because the preceding song, <I>Ogre Battle</i>, was so heavy, I couldn't help but feel impressed by how Queen-like, elegant, and moving this contrast was.
+<br><br>Over the lingering sounds of <I>Father to Son</i>, the sad and dramatic story of <I>White Queen</i> began to play.  Freddie played his piano gracefully here, but Roger's drumming shouldn't be overlooked either.  On the other hand, I found myself wondering what was up with John, and F.C. staff member Risa told me she saw him yawning...
+<br><br>
+Then they switched gears with a powerful performance of <I>Flick of the Wrist</i>, with John keeping an undulating pace.  I thought this song would be impossible to recreate onstage, but things unfolded much as they did on the record thanks to John's remarkable bass playing.  The ending of <I>Brighton Rock</i> could've used a bit of that charm...
+<br><br>The seventh song was <I>Doing All Right</i>, which didn't leave much of an impression, but that may just be because the eighth song was a medley of great songs that blurred it a big in comparison.  Before this medley began, Freddie made a point of mentioning that <I>Killer Queen</i> was coming up, and the audience's spirits were naturally raised.
+<br><br>So when <I>In the Lap of the Gods</i> started, everyone held their breath and stared at the stage, wondering when they would launch into <I>Killer Queen</i>.  But it has to be said that Roger's voice in <I>Lap of the Gods</i> is something to behold!  He sounds almost exactly like he does on the record!  It seems like it should be impossible.  Really I think the highlight of this song was that singular voice of his.
+<br><br>
+Then, after that, they threw <I>Killer Queen</i> at us.  Following the example of the band, everyone clapped their hands and stomped their feet to that "DOOT DOOT DOOT DOOT..." beat at the beginning.  And as soon as Freddie came in with "She keeps..." the climax of the show began!  I think a lot has already been said about Freddie's pianowork on this one.
+<br><br>The tenth song was that long one, <I>Black Queen</i>, but it wasn't part of a medley and we got to hear the whole thing through.  But I can't say they didn't shorten a few things here and there!  <I>Leroy Brown</i>, which was the next song, is a good example...
+<br><br><I>Leroy Brown</i> gave off an awesomely dark feel, similar to <I>Killer Queen</i>, and Brian had a chance to play the ukulele-banjo, which was well-received at every show.  Oh yeah, and I must add that John brought his triangle into the mix during <I>Killer Queen</i>... I always get a kick out of that part.
+<br><br>
+Once the <I>Leroy Brown</i> medley was over, they began their 18th number, <I>Son and Daughter</i>.  This has been a part of their repertoire for years now, and Freddie's stage presence was so self-assured, especially during the chorus.  It felt daring.
+<br><br>Towards the middle of the performance, Brian's elaborate guitar solo showed up, and we got to hear him weave in some Japanese folksongs.  The others came back onstage and again they achieved the perfection of their total sound.  While Brian was doing his solo, Freddie had changed his outfit and transformed from a "White Queen" into a "Black Queen"!  Let me see if I can remember what everyone wore.
+<br><br>For this change of clothes during <I>Son and Daughter</i>, Freddie had on a white jumpsuit with a pleated cape.  John wore a black suit.  Roger... was a little too elaborate for me to remember well, but I think it varied depending on the night.  Brian wore a stunning costume that made him look like a stylized bird.
+<br><br>When Freddie changed, he won a black V-neck tee shirt and tight black pants.  He really got into it with <I>Son and Daughter</i>, yelling "Alright, stand up!  Clap your hands!" as they rushed into <I>Keep Yourself Alive</i>.  The audience had been waiting for a cue to stand, and both we the audience and Queen enjoyed our time immensely!
+<br><br>
+Things got more and more exciting with <I>The Seven Seas of Rhye</i>, and a hard rock performance of <I>Stone Cold Crazy</i> had the girls on the verge of fainting.  Then they did the ever-popular <I>Liar</i>.
+<br><br>Boiling over with excitement and yelling out "LIAR!" during the chorus with all the other people, I was so glad I was able to come be together with Queen like this.  During the last number <I>In the Lap of the Gods... revisited</i>, the smoke machine started up again, and I began to feel the pull on my heartstrings that it was all soon going to be over, and I even cried a bit during the last show.  Freddie's beautiful piano resounded and I thought I heard him yell "Sayonara!", and with that, in a flash the drama onstage was gone.  At every show, people were shouting "ENCORE! ENCORE!" with such insanity that the four of them reappeared and treated us to an another excellent rock'n'roll medley.
+<br><br><I>Big Spender</i>, <I>Modern Times Rock'n'Roll</i>, and <I>Jailhouse Rock</i>–all arranged and done with Queen flair, and Freddie brought out red carnations to throw during the climax.
+<br><br>The second encore was <I>See What A Fool I've Been</i>, and this was the end, as the four of them left the stage for good.  Even though the show was over, the British national anthem began to fill the venue, sending off impressed fans.  Of course we the staff were impressed as well.
+<br>
+<br>
+<br>
+<hr>
+<br>
+<center>
+<img src="../images/BACK.png" width="75%" alt="Back" onclick="history.back()" style="cursor:pointer;">
+</center>
+</main>
+</div>
+</div>
+</main>
+  </main>
+</div>
+</div>
+</main>
+
+  <!-- Footer -->
+  <footer>
+    <p>QueenInJapan.com</p>
+    <p>All fan materials, drawings, etc will be credited to the creator whenever possible.  Artwork has been stylized for this site.  Homepage illustrations and Queen Japanese crest artwork done by yours truly.  <a href="https://danielduret.nl/queenfont/">Queen font</a> by Daniel Duret.  
+<br>No AI was involved in any part of this website, except to help check the coding because I don't know what I'm doing.  
+</p>
+<p>If you have any Japanese Queen memorabilia you’d like to sell, please email the webmistress at
+      <a href="mailto:queeninjapan@gmail.com">QueenInJapan@gmail.com</a></p>
+    <p>もし売りたいクイーンの日本のメモラビリアがありましたら、遠慮なく
+      <a href="mailto:queeninjapan@gmail.com">メール</a>してください。特に同人誌やファンジーンに興味があります。日本語でも連絡してもOKです。</p>
+  </footer>
+
+  <!-- Sidebar Script -->
+  <script>
+    function toggleNav() {
+     const sidebar = document.getElementById("mySidebar");
+sidebar.classList.toggle("open");
+}
+  </script>
+<script>
+document.addEventListener("click", function (event) {
+  const sidebar = document.querySelector(".sidebar");
+  const menuButton = document.querySelector(".menu-button");
+
+  // If sidebar is open AND click is outside both sidebar & button → close it
+  if (
+    sidebar.classList.contains("open") &&
+    !sidebar.contains(event.target) &&
+    !menuButton.contains(event.target)
+  ) {
+    sidebar.classList.remove("open");
+  }
+});
+</script>
+
+</body>
+</html>
