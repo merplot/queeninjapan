@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Queen in Japan • 日本の愛されたクイーン</title>
+
+  <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body class="layout-leftimage">
+<body>
+
+  <!-- Sidebar -->
+  <nav id="mySidebar" class="sidebar">
+    <a href="../index.html"><img src="images/top-icon.png" class="icon" alt="">Home</a>
+    <a href="../official.html"><img src="images/official-icon.png" class="icon" alt="">Official Japanese Fanclub Magazines</a>
+    <a href="../unofficial.html"><img src="images/unofficial-icon.png" class="icon" alt="">Unofficial Japanese Fanclub Magazines</a>
+    <a href="../manga.html"><img src="images/manga-icon.png" class="icon" alt="">Queen in Manga <br>& Doujinshi</a>
+    <a href="../press.html"><img src="images/press-icon.png" class="icon" alt="">Queen in Japanese Press</a>
+    <a href="../promo.html"><img src="images/promo-icon.png" class="icon" alt="">Japanese Promo Materials</a>
+    <a href="../about.html"><img src="images/about-icon.png" class="icon" alt="">About</a>
+  </nav>
+
+  <!-- Toggle Button -->
+  <span class="menu-button" onclick="toggleNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header id="home">
+    <h1><A href="../unofficial.html"><img src="images/QIJheader_unofficial.png" alt="Queen in Japan"></a></h1>
+  </header>
+
+  <!-- Content -->
+  <main>
+<div class="content-container">
+    <img src="QueenTimes/Queentimes3-5.jpeg" alt="Front Page" class="main-image">
+    <div class="text-content">
+<br>
+
+There isn't much content to share from Volume 3 <sup>1</sup>&frasl;<sub>2</sub> of the Queen Times because it's almost completely full of Japanese translations of contemporary English articles, so posting them here would be redundant. This volume is marked as a "Coming to Japan Commemorative Issue" but there isn't much inside to support that–instead, extensive info on their first Japanese tour can be found in <a href="QT4.html">volume 4</a>.
+<br>
+<br>
+There is a small blurb at the end by Ikko, which gives an interesting peek into the life of a high school student running a rapidly-growing fanclub:
+<br>
+<br>
+<I>"Ah!  While editing these eight articles, I felt really good.  But I can't believe it's so hard to copy stuff written by a person on manuscript paper!  It'd be much easier to translate if that weren't the case.  Copying stuff over like this for an entire day will make you go crazy!  Yes, it's 3:07 A.M. right now!
+<br><br>
+I was desperate, knowing I wouldn't be able to make the deadline in time if I didn't take it to the printer's tomorrow, but I have school at 9:30 A.M.... so now I'm frazzled, and I'm annoyed and crazy!
+<br><br>
+(Wasn't I already crazy though??)
+<br>
+<br>
+I can't forget to thank Mori, head of the Chubu Branch of the F.C., as well as Warner Pioneer.
+<br>
+<br>
+&mdash;Furubayashi
+<br>
+<br>
+<br>
+<hr>
+<br>
+<center>
+<img src="images/BACK.png" width="75%" alt="Back" onclick="history.back()" style="cursor:pointer;">
+</center>
+</main>
+</div>
+</div>
+</main>
+
+  <!-- Footer -->
+  <footer>
+    <p>QueenInJapan.com</p>
+    <p>All fan materials, drawings, etc will be credited to the creator whenever possible.  Artwork has been stylized for this site.  Homepage illustrations and Queen Japanese crest artwork done by yours truly.  <a href="https://danielduret.nl/queenfont/">Queen font</a> by Daniel Duret.  No AI was involved in any part of this website, except to help check the coding because I don't know what I'm doing.  
+</p>
+<p>If you have any Japanese Queen memorabilia you’d like to sell, please email the webmistress at
+      <a href="mailto:queeninjapan@gmail.com">QueenInJapan@gmail.com</a></p>
+    <p>もし売りたいクイーンの日本のメモラビリアがありましたら、遠慮なく
+      <a href="mailto:queeninjapan@gmail.com">メール</a>してください。特に同人誌やファンジーンに興味があります。日本語でも連絡してもOKです。</p>
+  </footer>
+
+ <!-- Sidebar Script -->
+  <script>
+    function toggleNav() {
+     const sidebar = document.getElementById("mySidebar");
+sidebar.classList.toggle("open");
+}
+
+</script>
+<script>
+document.addEventListener("click", function (event) {
+const sidebar = document.querySelector(".sidebar");
+const menuButton = document.querySelector(".menu-button");
+
+if (sidebar.classList.contains("open") &&
+!sidebar.contains(event.target) &&
+!menuButton.contains(event.target)) {
+sidebar.classList.remove("open");
+}
+});
+  </script>
+</body>
+</html>

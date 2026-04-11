@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Queen in Japan • 日本の愛されたクイーン</title>
+
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body class="layout-leftimage">
+<body>
+
+  <!-- Sidebar -->
+  <nav id="mySidebar" class="sidebar">
+    <a href="../index.html"><img src="images/top-icon.png" class="icon" alt="">Home</a>
+    <a href="../official.html"><img src="images/official-icon.png" class="icon" alt="">Official Japanese Fanclub Magazines</a>
+    <a href="../unofficial.html"><img src="images/unofficial-icon.png" class="icon" alt="">Unofficial Japanese Fanclub Magazines</a>
+    <a href="../manga.html"><img src="images/manga-icon.png" class="icon" alt="">Queen in Manga <br>& Doujinshi</a>
+    <a href="../press.html"><img src="images/press-icon.png" class="icon" alt="">Queen in Japanese Press</a>
+    <a href="../promo.html"><img src="images/promo-icon.png" class="icon" alt="">Japanese Promo Materials</a>
+    <a href="../about.html"><img src="images/about-icon.png" class="icon" alt="">About</a>
+  </nav>
+
+  <!-- Toggle Button -->
+  <span class="menu-button" onclick="toggleNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header id="home">
+    <h1><a href="../unofficial.html"><img src="images/QIJheader_unofficial.png" alt="Queen in Japan"></a></h1>
+  </header>
+
+  <!-- Content -->
+  <main>
+<div class="content-container">
+    <img src="QueenTimes/Queentimes4.jpeg" alt="Front Page" class="main-image">
+    <div class="text-content">
+<figure class="float-right img-small">
+  <img src="QueenTimes/brianpeng.jpeg" alt="">
+</figure>
+
+Volume 4 of the Queen Times was released a couple of weeks after the band's first Japanese tour and seems to be the easiest to find.  Its content revolves around said tour, and it contains a play-by-play of the band's trip; Ikko and other staff members were able to trail the band, meeting them individually and even managing to arrange an interview with Brian May.  Sadly, the QFCJ folded not long after this, and this interview, which was slated to show up in an upcoming issue, was never released to my knowledge.
+<br>
+<br>
+Apart from a detailed itinerary of the Japanese tour, this issue also contains performance reports and the staff's impressions of each member, unseen pictures, and the usual fanclub correspondence and merchandise pages.  The fanclub had grown to thousands of members by this point, attracting the attention of Nabepro.
+<br>
+<br>
+I consider Volume 4 to be the crowning jewel of the Queen Times, detailing a historic tour by the band before they were a household name.  The amount of interaction the young staff of the club were able to have with band members is truly remarkable, and the excitement of the occasion is palpable.
+<br><br>
+The cover illustration was drawn by future mangaka Yayoi Takeda.
+<br>
+<br>
+<br>
+<span style="font-weight: 900;"><a href="4/road.html">Queen on the Road</a></span>
+<br>
+<br>
+<span style="font-weight: 900;"><a href="4/impressions.html">Impressions of Queen</a></span>
+<br>
+<br>
+<span style="font-weight: 900;"><a href="4/highlights.html">Japanese Performance Highlights</a></span>
+<br>
+<br>
+<span style="font-weight: 900;"><a href="4/Editor4.html">Note from the Editor</a></span>
+<br>
+<br>
+<br>
+<hr>
+<br>
+<center>
+<img src="images/BACK.png" width="75%" alt="Back" onclick="history.back()" style="cursor:pointer;">
+</center>
+</main>
+</div>
+</div>
+</main>
+
+  <!-- Footer -->
+  <footer>
+    <p>QueenInJapan.com</p>
+    <p>All fan materials, drawings, etc will be credited to the creator whenever possible.  Artwork has been stylized for this site.  Homepage illustrations and Queen Japanese crest artwork done by yours truly.  <a href="https://danielduret.nl/queenfont/">Queen font</a> by Daniel Duret.  No AI was involved in any part of this website, except to help check the coding because I don't know what I'm doing.  
+</p>
+<p>If you have any Japanese Queen memorabilia you’d like to sell, please email the webmistress at
+      <a href="mailto:queeninjapan@gmail.com">QueenInJapan@gmail.com</a></p>
+    <p>もし売りたいクイーンの日本のメモラビリアがありましたら、遠慮なく
+      <a href="mailto:queeninjapan@gmail.com">メール</a>してください。特に同人誌やファンジーンに興味があります。日本語でも連絡してもOKです。</p>
+  </footer>
+
+ <!-- Sidebar Script -->
+  <script>
+    function toggleNav() {
+     const sidebar = document.getElementById("mySidebar");
+sidebar.classList.toggle("open");
+}
+
+</script>
+<script>
+document.addEventListener("click", function (event) {
+const sidebar = document.querySelector(".sidebar");
+const menuButton = document.querySelector(".menu-button");
+
+if (sidebar.classList.contains("open") &&
+!sidebar.contains(event.target) &&
+!menuButton.contains(event.target)) {
+sidebar.classList.remove("open");
+}
+});
+  </script>
+</body>
+</html>
