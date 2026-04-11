@@ -1,0 +1,546 @@
+/* ============================================
+   OPTIONAL LEFT-IMAGE LAYOUT (PAGE-SPECIFIC)
+   ============================================ */
+
+if ('scrollRestoration' in history) {
+  history.scrollRestoration = 'auto';
+}
+
+body.layout-leftimage .main-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 40vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* ===== Caption for fixed left image ===== */
+body.layout-leftimage .main-image-caption {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 40vw;
+  padding: 10px 15px;
+  font-size: 13px;
+  line-height: 1.4;
+  color: #fff;
+ background: #000;        /* solid black */
+
+  box-sizing: border-box;
+}
+
+body.layout-leftimage .content-container {
+padding-bottom: 0 !important;
+  margin-bottom: 0  
+margin-left: 40vw;
+}
+
+body.layout-leftimage header,
+body.layout-leftimage footer {
+  margin-left: 40vw;
+}
+
+@media (max-width: 768px) {
+  body.layout-leftimage .main-image {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  body.layout-leftimage header,
+  body.layout-leftimage .content-container,
+  body.layout-leftimage footer {
+    margin-left: 0;
+    padding: 20px;
+  }
+}
+
+/* ============================================
+   HEADER SIZE FOR PAGES WITHOUT LEFT-IMAGE LAYOUT
+   ============================================ */
+body:not(.layout-leftimage) header {
+  padding: 5px 15px;     /* smaller all around */
+}
+
+body:not(.layout-leftimage) header img {
+  max-width: none;        /* smaller logo */
+}
+
+/* ============================================
+   Body margins ONLY for pages without left-image layout
+   ============================================ */
+body:not(.layout-leftimage) {
+  margin-left: 220px;
+  margin-right: 220px;
+}
+
+
+
+/* ===== Global ===== */
+body {
+  background-color: #000;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+font-weight: 300;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* ===== Fixed Sidebar Image ===== */
+.main-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 40vw;              /* image takes ~40% of screen */
+  height: 100vh;
+  object-fit: cover;         /* keeps proportions */
+  z-index: -1;               /* stays behind content */
+}
+
+/* ===== Text Container (content beside image) ===== */
+.content-container {
+  margin-left: 40vw;         /* pushes text to the right of image */
+  padding: 10px 0px 20px 20px; /* reduced top padding */
+  max-width: 800px;
+}
+
+/* ===== Header ===== */
+header {
+  text-align: left;
+  padding: 10px 20px 0 20px; /* smaller vertical padding */
+  background: #000;
+  margin-bottom: 0;
+}
+
+header img {
+  max-width: 60%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin-bottom: 0;
+}
+
+/* ============================================
+   Double header layout (no left-image pages)
+   ============================================ */
+
+/* ============================================
+   Double header layout (no left-image pages)
+   IMAGE 1 right-aligned near menu button
+   IMAGE 2 left-aligned
+   ============================================ */
+
+body:not(.layout-leftimage) header.double-header .header-images {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  width: 100%;
+}
+
+/* Left image (Image 2) */
+body:not(.layout-leftimage) header.double-header .header-images .header-image-left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* Right image (Image 1, near menu button) */
+body:not(.layout-leftimage) header.double-header .header-images .header-image-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Image sizing */
+body:not(.layout-leftimage) header.double-header img {
+  max-height: 150px;
+  height: auto;
+  width: auto;
+}
+
+/* Give the header enough vertical space for large images */
+body:not(.layout-leftimage) header.double-header {
+  padding: 20px 0;
+}
+
+
+/* ===== Sidebar ===== */
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -300px;
+  width: 300px;
+  height: 100%;
+  background-color: #000;
+  padding-top: 60px;
+  z-index: 1000;
+  overflow-x: hidden;
+  transition: right 0.4s ease-in-out;
+  overflow-y: auto;
+}
+
+.sidebar.open {
+  right: 0;
+}
+
+
+
+.sidebar a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.sidebar a img.icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 12px;
+}
+
+/* ===== Menu Button ===== */
+.menu-button {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  font-size: 28px;
+  cursor: pointer;
+  color: #fff;
+  z-index: 1100;
+  background: #000;
+  padding: 10px 12px;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.menu-button:hover {
+  background: #000;
+}
+
+/* ===== Main Content ===== */
+main { 
+  padding: 10px; 
+  padding-top: -20px; 
+  margin-top: 0px; 
+padding-bottom: -20;   /* Removes space at the bottom of the content area */
+  margin-bottom: 0;
+  color: #fff; 
+} 
+
+main h3 { 
+  font-size: 2em; 
+  margin-bottom: 0px; 
+  color: #fff; 
+} 
+
+main p { 
+  font-size: 1.05em; 
+  font-weight: 100; 
+  margin-bottom: 0px; 
+}
+
+.text-content p:last-child {
+  margin-bottom: 0;    /* Removes the margin from the very last paragraph */
+}
+
+
+
+/* ===== Custom Image Sizes ===== */
+.img-large {
+  width: 100%;
+}
+
+.img-medium {
+  width: 66%;
+}
+
+.img-small {
+width: 40%;
+}
+
+.img-xsmall {
+  width: 25%;
+}
+
+.img-xxsmall {
+width: 15%;
+}
+
+.float-left {
+  float: left;
+  margin: 10px 20px 10px 0;
+}
+
+.float-right {
+  float: right;
+  margin: 10px 0 10px 20px;
+}
+
+.float-center {
+  text-align: center;
+  margin: 20px auto;   /* auto left/right = centered */
+}
+
+.float-center img {
+  display: block;
+  margin: 0 auto;      /* ensures image is centered */
+}
+
+.float-center figcaption {
+  font-size: 0.9em;
+  margin-top: 6px;
+  color: #ccc;
+}
+
+
+
+figure:not(.float-left):not(.float-right):not(.float-center) {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;   /* center only non-floated figures */
+}
+
+
+figure img {
+  display: block;
+  width: 100%;      /* allow custom image classes to work */
+  height: auto;
+}
+
+
+figcaption {
+  text-align: center;
+  font-size: 0.7em;
+  color: #fff;
+  margin-top: 5px;
+}
+
+figure {
+  position: relative;
+}
+
+.tooltip {
+  position: absolute;
+  top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+  background: rgba(0,0,0,0.6);
+
+  color: #fff;
+  padding: 6px 10px;
+  font-size: 12px;
+  white-space: nowrap;
+  border-radius: 4px;
+
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+figure:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* =============================
+   DATA GRID (MODERN TABLE)
+   ============================= */
+
+.data-grid-ML {
+  display: grid;
+  grid-template-columns: 150px .7fr 2.15fr 2.15fr 1fr;
+  column-gap: 16px;
+  row-gap: 0.95rem;
+}
+
+.data-grid-ML .header {
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #777;
+}
+
+.divider {
+  grid-column: 1 / -1;
+  height: 1px;
+  background: #ccc;
+  margin: 8px 0;
+}
+
+.data-grid-mags {
+  display: grid;
+  grid-template-columns: 150px .5fr 1.5fr;
+  column-gap: 16px;
+  row-gap: 0.95rem;
+}
+
+.data-grid-mags .header {
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #777;
+}
+
+.divider {
+  grid-column: 1 / -1;
+  height: 1px;
+  background: #ccc;
+  margin: 8px 0;
+}
+/* =============================
+   TRUE MASONRY USING CSS GRID
+   ============================= */
+
+.masonry-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-flow: dense;      /* important: fills gaps */
+  gap: 20px;
+  align-items: start;
+}
+
+/* Responsive breakpoints */
+@media (max-width: 900px) {
+  .masonry-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .masonry-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Each figure is a grid item */
+.masonry-grid figure {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+}
+
+/* Images */
+.masonry-grid figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Captions */
+.masonry-grid figure figcaption {
+  margin-top: 8px;
+  text-align: center;
+}
+
+/* Allow custom sizing classes to override */
+.masonry-grid img[class*=img-] {
+  width: inherit;
+}
+
+.masonry-span-2 {
+  break-after: column;
+}
+
+/* ------------------------------
+   ⭐ SPAN TWO COLUMNS
+   ------------------------------ */
+.masonry-span-2 {
+  grid-column: span 2;
+}
+
+/* ==== Links ==== */
+a:link, a:visited {
+  font-weight: 900;
+  color: #fff;
+}
+
+a.hover, a.active {
+  color: #fff;
+}
+
+body {
+  margin-left: 20px;
+}
+body {
+  margin-right: 120px;
+}
+
+/* ====footer ==== */
+footer {
+  margin-top: -30px;
+  padding-top: 0;
+  background-color: #000;
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 10px;
+  color: #aaa;
+}
+
+footer a {
+  color: #c7ede0;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+.sidebar a {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+font-weight: 300;
+  padding: 12px 24px;
+  border-bottom: 1px solid #222;
+  transition: background 0.3s, color 0.3s ease;}
+
+/* ===== Responsive Layout ===== */ 
+@media (max-width: 768px) { 
+  .main-image { 
+    position: relative; 
+    width: 100%; 
+    height: auto; 
+  } 
+
+  header, .content-container, footer { 
+    margin-left: 0; 
+    padding: 20px; 
+  } 
+}
+
+
+/* ====tooltip ==== */
+
+
+
+
+
+.tooltip-container {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle; /* Keeps it level with the other images */
+}
+
+.tooltip-text {
+  visibility: hidden;
+  width: 160px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%; /* Position above the image */
+  left: 50%;
+  margin-left: -80px; /* Center the tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip-container:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}

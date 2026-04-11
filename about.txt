@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Queen in Japan • 日本の愛されたクイーン</title>
+  <link rel="icon" type="image/png" href="images/favicon1.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <nav id="mySidebar" class="sidebar">
+    <a href="index.html"><img src="images/top-icon.png" class="icon" alt="">Home</a>
+    <a href="official.html"><img src="images/official-icon.png" class="icon" alt="">Official Japanese Fanclub Magazines</a>
+    <a href="unofficial.html"><img src="images/unofficial-icon.png" class="icon" alt="">Unofficial Japanese Fanclub Magazines</a>
+    <a href="manga.html"><img src="images/manga-icon.png" class="icon" alt="">Queen in Manga <br>& Doujinshi</a>
+    <a href="press.html"><img src="images/press-icon.png" class="icon" alt="">Queen in Japanese Press</a>
+    <a href="promo.html"><img src="images/promo-icon.png" class="icon" alt="">Japanese Promo Materials</a>
+    <a href="about.html"><img src="images/about-icon.png" class="icon" alt="">About</a>
+  </nav>
+
+  <!-- Toggle Button -->
+  <span class="menu-button" onclick="toggleNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+<header class="double-header">
+  <div class="header-images">
+
+    <!-- Second image (left-aligned) -->
+    <div class="header-image-left">
+      <img src="images/null.png" alt="">
+    </div>
+
+    <!-- First image (right-aligned, next to menu button) -->
+    <div class="header-image-right">
+     <a href="index.html"> <img src="images/QIJheader_about.png" alt=""></a>
+    </div>
+
+  </div>
+</header>
+
+
+
+
+  <!-- Content -->
+  <main>
+<div class="text-content">
+<center>
+<h2>About (and Why)</h2>
+<I>(...and please read this site's <a href="policy.html">important policy</a> on gay fan content.)</i></center>
+<br><br>
+
+Queen, a band that needs no introduction as it is one of the few bands in history to truly be a household name all over the planet, has forged a unique relationship with Japan.  Although they were not the first Western rock band to play in Japan (that credit is often given to The Ventures in the 1960s), Queen completed one of the first true tours of the country, playing shows in more remote areas of Japan even before achieving major success back home in England.  (Even The Beatles had only played at the Tokyo Budoukan on their 1966 Japanese trip, which was an affair marred by controversy.)
+<br><br>
+Having achieved moderate success in the West and riding high on their first big hit in <I>Killer Queen</i>, the band arrived in Japan for the first time in the spring of 1975.  The members have recounted the rabid throngs of fans that greeted them at Haneda Airport, and how the special enthusiasm from their (mostly female, at that point) Japanese fanbase blew them away.  Although they were initially treated as more of an idol group than anything, it didn't take long for them to earn their spot as one of Japan's favorite rock'n'roll bands.  Their popularity there endures to this day, with the remaining active members touring there with Adam Lambert as recently as 2024.  April 17th, the date the band arrived in Japan for the first time in 1975, is officially recognized as "Queen's Day".
+<br><br>
+The band in its original incarnation would play Japan in 1975, 1976, 1979, 1981, 1982, and 1985.  Their 1976 album <I>A Day at the Races</i> ended with a Brian May-penned track with lyrics sung by Freddie Mercury in Japanese.  <I>Te wo toriatte (Let Us Cling Together)</i> (or "<I>Teo torriatte</i>" as it is Romanized on the record) was written as a love song of sorts to Queen's Japanese fanbase.  Brian in particular seemed to be touched by the Japanese fans' belief in the band.  Queen would perform this song live only when in Japan, with the entire audience singing along.
+<br><br>
+Freddie Mercury was also fascinated by Japanese culture & art.  Whenever he was in Japan he would go on huge shopping sprees for antiques and the like, and the 2023 Sotheby's auction of his estate contained many kimono, Japanese lacquerware, trinkets, artbooks, and more. 
+<br><br>
+The culture of fandom on a macro level in Japan is interesting, and from a Westerner's point of view, historically more passionate and permissive than American fandoms.  It's only recently, with the rise of the Internet, that "nerding out" to a band or TV show or a movie has been in style in North America.  I believe the creation of more spaces online for fans to congregate has created a positive feedback loop for something that used to be stigmatized to some degree.  (For example, San Diego Comic Con has only really gotten mainstream attention in the past 15 years or so.).  On the other hand, for all its repression, Japanese society seems to be more permissive when it comes to living a lifestyle that makes space for a current obsession or hobby; the fans' passion and devotion is celebrated and normalized, and there is less shame about devoting yourself to something you love.  "最近ハマってることは？" or "What are you into these days?" is a relatively common question to ask someone you know.  This passion is reflected in fanzine and doujinshi culture, where fan "circles" create and print their own indie publications&mdash;mostly in comic format.  Many of these publications are obscure and nearly anonymous, catalogues of which exist only in the minds of the people who made and read them at the time.  It's these works of art that helped shape Showa Era rock culture, amplifying the art of the bands and singers they were created to celebrate.
+<br><br>
+Of course, fanzines exist all over the world, and many were created in the West as well.  But Japanese fanzines, in comparison, were often highly organized and came with a special camaraderie, with a focus on visual storytelling&mdash;if a fan had an encounter with the band or a story to tell, they simply drew it.  A lot of these fanzines feature very talented artists.
+<br><br>This website is my feeble attempt to catalogue and translate these materials so that they may be enjoyed by a new, English-speaking audience.  Queen, a very public-facing band that has been around for well over 50 years now, has been the subject of countless books, articles, interviews, and even movies, and some of these Japanese fan materials may contain some of the only new nuggets of information left for current fans to consume.  In addition to Japanese fan content, I hope to create an extensive database of official Japanese fanclub publications, Japanese music magazines, Japan-only promo items, and the like.
+<br><br>
+This site will <I>not</i> be cataloguing Queen's Japanese tour dates, the reason being that there are already many great resources for this, including <a href="http://www.queenconcerts.com">QueenConcerts.com</a> and <a href="http://www.queenlive.ca">QueenLive.ca</a>.  Likewise, there are already better resources for Japanese vinyl releases, such as <a href="http://www.discogs.com">Discogs</a>, so I will leave that to them as well.
+<br><br>
+I hope you find this stuff as interesting as I do.
+<br><BR>
+<p style="text-align: right;">&mdash;Quidge (QIJ)</p>
+<br>
+<br>
+<br>
+<hr>
+<br>
+<center>
+<img src="images/BACK.png" width="45%" alt="Back" onclick="history.back()" style="cursor:pointer;">
+</center>
+
+  </main>
+</div>
+</div>
+</main>
+
+  <!-- Footer -->
+  <footer>
+    <p>QueenInJapan.com</p>
+    <p>All fan materials, drawings, etc will be credited to the creator whenever possible.  Artwork has been stylized for this site.  Homepage illustrations and Queen Japanese crest artwork done by yours truly.  <a href="https://danielduret.nl/queenfont/">Queen font</a> by Daniel Duret.  
+<br>No AI was involved in any part of this website, except to help check the coding because I don't know what I'm doing.  
+</p>
+<p>If you have any Japanese Queen memorabilia you’d like to sell, please email the webmistress at
+      <a href="mailto:queeninjapan@gmail.com">QueenInJapan@gmail.com</a></p>
+    <p>もし売りたいクイーンの日本のメモラビリアがありましたら、遠慮なく
+      <a href="mailto:queeninjapan@gmail.com">メール</a>してください。特に同人誌やファンジーンに興味があります。日本語でも連絡してもOKです。</p>
+  </footer>
+
+  <!-- Sidebar Script -->
+  <script>
+    function toggleNav() {
+     const sidebar = document.getElementById("mySidebar");
+sidebar.classList.toggle("open");
+}
+  </script>
+<script>
+document.addEventListener("click", function (event) {
+  const sidebar = document.querySelector(".sidebar");
+  const menuButton = document.querySelector(".menu-button");
+
+  // If sidebar is open AND click is outside both sidebar & button → close it
+  if (
+    sidebar.classList.contains("open") &&
+    !sidebar.contains(event.target) &&
+    !menuButton.contains(event.target)
+  ) {
+    sidebar.classList.remove("open");
+  }
+});
+</script>
+
+</body>
+</html>

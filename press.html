@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Queen in Japan • 日本の愛されたクイーン</title>
+  <link rel="icon" type="image/png" href="images/favicon4.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="layout-leftimage">
+
+
+  <!-- Sidebar -->
+  <nav id="mySidebar" class="sidebar">
+    <a href="index.html"><img src="images/top-icon.png" class="icon" alt="">Home</a>
+    <a href="official.html"><img src="images/official-icon.png" class="icon" alt="">Official Japanese Fanclub Magazines</a>
+    <a href="unofficial.html"><img src="images/unofficial-icon.png" class="icon" alt="">Unofficial Japanese Fanclub Magazines</a>
+    <a href="manga.html"><img src="images/manga-icon.png" class="icon" alt="">Queen in Manga <br>& Doujinshi</a>
+    <a href="press.html"><img src="images/press-icon.png" class="icon" alt="">Queen in Japanese Press</a>
+    <a href="promo.html"><img src="images/promo-icon.png" class="icon" alt="">Japanese Promo Materials</a>
+    <a href="about.html"><img src="images/about-icon.png" class="icon" alt="">About</a>
+  </nav>
+
+  <!-- Toggle Button -->
+  <span class="menu-button" onclick="toggleNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header id="home">
+    <a href="index.html"><h1><img src="images/QIJheader_press.png" alt="Queen in Japan"></h1></a>
+  </header>
+
+  <!-- Content -->
+  <main>
+<div class="content-container">
+   <img src="images/frontpage_copy3.png" alt="Front Page" class="main-image">
+    <div class="text-content">
+    <h2>Queen in Japanese Press</h2>
+
+As one of the huge imported Western rock bands of the 70s, Queen appeared in countless Japanese publications, including magazines, books, musical scores, lyric compilations, and photobooks.  Sometimes Japanese press contained previously printed English-language items simply translated into Japanese, but there are also many Japanese interviews and articles that have probably never yet been seen by English-speaking audiences.  Queen also made several TV appearances when visiting the country, and appeared on radio shows as well.  
+<br><br>
+This is my attempt to create a database of print and broadcast Queen content that appeared in Japan during the band's original run (c. 1973-1992).  There is a LOT, and it's going to be under construction probably forever.  <br><br>
+<I>Note:</i> Tour pamphlets can be found under <a href="promo.html">Promo Items</a>.
+<br><br>
+<span style="font-size: 12px;">If you have any information to share, please <a href="mailto:queeninjapan@gmail.com">email me.</a>  <br>
+*もしここに掲載されていないクイーン関連のアイテムや出版物をご存知でしたら、お気軽に<a href="mailto:queeninjapan@gmail.com">メール</a>でお知らせください。</span><br><br>
+
+
+<span style="font-weight: 900;"><a href="press/mags.html">Queen in Magazines</a></span> 
+<br><Br>
+<span style="font-weight: 900;"><a href="press/scores.html">Scores & Lyrics</a></span> 
+<br><Br>
+<span style="font-weight: 900;"><a href="press/books.html">Miscellaneous Books</a></span> 
+<br><Br>
+<span style="font-weight: 900;"><a href="press/TV.html">Japanese Radio & TV</a></span> 
+<br><br>
+
+<br>
+<hr>
+<br>
+<center>
+<img src="images/BACK.png" width="75%" alt="Back" onclick="history.back()" style="cursor:pointer;">
+</center>
+</main>
+</div>
+</div>
+</main>
+
+  <!-- Footer -->
+  <footer>
+    <p>QueenInJapan.com</p>
+    <p>All fan materials, drawings, etc will be credited to the creator whenever possible.  Artwork has been stylized for this site.  Homepage illustrations and Queen Japanese crest artwork done by yours truly.  <a href="https://danielduret.nl/queenfont/">Queen font</a> by Daniel Duret.  No AI was involved in any part of this website, except to help check the coding because I don't know what I'm doing.  
+</p>
+<p>If you have any Japanese Queen memorabilia you’d like to sell, please email the webmistress at
+      <a href="mailto:queeninjapan@gmail.com">QueenInJapan@gmail.com</a></p>
+    <p>もし売りたいクイーンの日本のメモラビリアがありましたら、遠慮なく
+      <a href="mailto:queeninjapan@gmail.com">メール</a>してください。特に同人誌やファンジーンに興味があります。日本語でも連絡してもOKです。</p>
+  </footer>
+
+ <!-- Sidebar Script -->
+  <script>
+    function toggleNav() {
+     const sidebar = document.getElementById("mySidebar");
+sidebar.classList.toggle("open");
+}
+
+</script>
+<script>
+document.addEventListener("click", function (event) {
+const sidebar = document.querySelector(".sidebar");
+const menuButton = document.querySelector(".menu-button");
+
+if (sidebar.classList.contains("open") &&
+!sidebar.contains(event.target) &&
+!menuButton.contains(event.target)) {
+sidebar.classList.remove("open");
+}
+});
+  </script>
+
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Queen in Japan • 日本の愛されたクイーン</title>
+  <link rel="icon" type="image/png" href="images/favicon6.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="layout-leftimage">
+
+
+  <!-- Sidebar -->
+  <nav id="mySidebar" class="sidebar">
+    <a href="index.html"><img src="images/top-icon.png" class="icon" alt="">Home</a>
+    <a href="official.html"><img src="images/official-icon.png" class="icon" alt="">Official Japanese Fanclub Magazines</a>
+    <a href="unofficial.html"><img src="images/unofficial-icon.png" class="icon" alt="">Unofficial Japanese Fanclub Magazines</a>
+    <a href="manga.html"><img src="images/manga-icon.png" class="icon" alt="">Queen in Manga <br>& Doujinshi</a>
+    <a href="press.html"><img src="images/press-icon.png" class="icon" alt="">Queen in Japanese Press</a>
+    <a href="promo.html"><img src="images/promo-icon.png" class="icon" alt="">Japanese Promo Materials</a>
+    <a href="about.html"><img src="images/about-icon.png" class="icon" alt="">About</a>
+  </nav>
+
+  <!-- Toggle Button -->
+  <span class="menu-button" onclick="toggleNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header id="home">
+    <a href="index.html"><h1><img src="images/QIJheader_manga.png" alt="Queen in Japan"></h1></a>
+  </header>
+
+  <!-- Content -->
+  <main>
+<div class="content-container">
+      <img src="images/covertest.jpg" alt="Front Page" class="main-image">
+    <div class="text-content">
+    <h2>Queen in manga & doujinshi</h2>
+ 
+Manga, or Japanese comics, are an indelible part of Japanese culture.  Unlike in the West, where comics are often either viewed as a relic of the past (newspapers) or somewhat nerdy (superheroes), Japanese citizens of all ages and backgrounds read manga.  Most schools have manga clubs, and many manga become so popular as to enter broad popular culture.  Many anime series start out in printed form as manga.
+<br><br>
+<span style="font-weight: 900;"><a href="manga/shoujo.html">Queen in manga</a></span>
+<br><br>
+Doujinshi, on the other hand, are independently-produced comics, often derivative&mdash;that is, building on an already existing or established fandom or work.  They run the gamut from extremely obscure and amateur to well-established, and are often printed as a labor of love rather than business.  They bear a resemblance to the (often more text-based) Western fanzine, but with more cultural cachet.  The Japanese Queen fandom's relationship with doujinshi is quite interesting and unique.
+<br><br>
+<span style="font-weight: 900;"><a href="doujinshi/doujinshi.html">Queen and doujinshi</a></span>
+<br>
+
+<br>
+<hr>
+<br>
+<center>
+<img src="images/BACK.png" width="75%" alt="Back" onclick="history.back()" style="cursor:pointer;">
+</center>
+</main>
+</div>
+</div>
+</main>
+
+  <!-- Footer -->
+  <footer>
+    <p>QueenInJapan.com</p>
+    <p>All fan materials, drawings, etc will be credited to the creator whenever possible.  Artwork has been stylized for this site.  Homepage illustrations and Queen Japanese crest artwork done by yours truly.  <a href="https://danielduret.nl/queenfont/">Queen font</a> by Daniel Duret.  No AI was involved in any part of this website, except to help check the coding because I don't know what I'm doing.  
+</p>
+<p>If you have any Japanese Queen memorabilia you’d like to sell, please email the webmistress at
+      <a href="mailto:queeninjapan@gmail.com">QueenInJapan@gmail.com</a></p>
+    <p>もし売りたいクイーンの日本のメモラビリアがありましたら、遠慮なく
+      <a href="mailto:queeninjapan@gmail.com">メール</a>してください。特に同人誌やファンジーンに興味があります。日本語でも連絡してもOKです。</p>
+  </footer>
+
+ <!-- Sidebar Script -->
+  <script>
+    function toggleNav() {
+     const sidebar = document.getElementById("mySidebar");
+sidebar.classList.toggle("open");
+}
+
+</script>
+<script>
+document.addEventListener("click", function (event) {
+const sidebar = document.querySelector(".sidebar");
+const menuButton = document.querySelector(".menu-button");
+
+if (sidebar.classList.contains("open") &&
+!sidebar.contains(event.target) &&
+!menuButton.contains(event.target)) {
+sidebar.classList.remove("open");
+}
+});
+  </script>
+
+</body>
+</html>
