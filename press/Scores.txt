@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Queen in Japan • 日本の愛されたクイーン</title>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body id="top">
+
+  <!-- Sidebar -->
+  <nav id="mySidebar" class="sidebar">
+    <a href="../index.html"><img src="../images/top-icon.png" class="icon" alt="">Home</a>
+    <a href="../official.html"><img src="../images/official-icon.png" class="icon" alt="">Official Japanese Fanclub Magazines</a>
+    <a href="../unofficial.html"><img src="../images/unofficial-icon.png" class="icon" alt="">Unofficial Japanese Fanclub Magazines</a>
+    <a href="../manga.html"><img src="../images/manga-icon.png" class="icon" alt="">Queen in Manga <br>& Doujinshi</a>
+    <a href="../press.html"><img src="../images/press-icon.png" class="icon" alt="">Queen in Japanese Press</a>
+    <a href="../promo.html"><img src="../images/promo-icon.png" class="icon" alt="">Japanese Promo Materials</a>
+    <a href="../about.html"><img src="../images/about-icon.png" class="icon" alt="">About</a>
+  </nav>
+
+  <!-- Toggle Button -->
+  <span class="menu-button" onclick="toggleNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+<header class="double-header">
+<div class="header-images">
+
+<!-- Second image (left-aligned) -->
+<div class="header-image-left">
+<img src="images/scores_header.png" alt="">
+</div>
+
+<!-- First image (right-aligned, next to menu button) -->
+<div class="header-image-right">
+<a href="../press.html"> <img src="../images/QIJheader_press.png" alt="Queen in Japan"></a>
+</div>
+</div>
+</header>
+
+  <!-- Content -->
+  <main>
+  <div class="text-content">
+<br>
+Queen's music was transposed into many different formats for scorebooks in Japan throughout the 70s and 80s.  Lyric books (or "poetry collections") were also popular, especially since they provided corresponding Japanese translations.
+<br><br><center>
+<span style="font-size: 20px">
+<a href="#scores">Scorebooks</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#lyrics">Lyrics</a>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></center>
+<br><br>
+<hr>
+
+
+<h2 id="scores">Scorebooks</h2>
+<div class="data-grid-mags">
+  <div class="header">Name/Date</div>
+  <div class="header">Cover</div>
+  <div class="header">Publisher/Notes/ISBN</div>
+
+  <div>1975 or 1976<br>Queen Rock Piano Sounds</div>
+  <div><img src="Scores/751.jpeg" width="100"></div>
+  <div>Rittor Music.  I believe this is an early publication and seems to be pretty rare.</div>
+<div class="divider"></div>
+
+  <div>1976<br>Queen A Night at the Opera Score</div>
+  <div><img src="Scores/761.jpeg" width="100"></div>
+  <div>Rittor Music.  Contained color photos</div>
+<div class="divider"></div>
+
+  <div>1976 or 1977<br>Queen Super Rock Guitar Score</div>
+  <div><img src="Scores/7X2.jpeg" width="100"><br><img src="Scores/7X2A.jpeg" width="200"></div>
+  <div>Rittor Music.  Apparently <I>Long Away</i> was written by Freddie...</div>
+<div class="divider"></div>
+
+  <div>1976?<br>Queen 1 [first edition seems to be just "QUEEN"]</div>
+  <div><img src="Scores/762A.jpeg" width="100"><img src="Scores/762B.jpeg" width="100"></div>
+  <div>Nichion Music.  Guitar parts from <I>A Night at the Opera</i></div>
+<div class="divider"></div>
+
+  <div>1977?<br>Queen 2</div>
+  <div><img src="Scores/772.jpeg" width="100"></div>
+  <div>Nichion Music. Guitar parts for <I>A Day at the Races</i></div>
+<div class="divider"></div>
+
+  <div>1977<br>Queen A Day at the Races Score</div>
+  <div><img src="Scores/771.jpeg" width="100"></div>
+  <div>Rittor Music.  Contained color photos</div>
+<div class="divider"></div>
+
+  <div>197?<br>Queen Best Band Score</div>
+  <div><img src="Scores/XX1.jpeg" width="100"></div>
+  <div>Rittor Music.  Came with color pinup & 8 pages of color photos.  Freddie's estate sold a copy of this in the 2023 Sotheby's auction.</div>
+<div class="divider"></div>
+
+<div>1978?<br>Queen Rock Organ Score</div>
+  <div><img src="Scores/788.jpeg" width="100"></div>
+  <div>Rittor Music</div>
+<div class="divider"></div>
+
+  <div>1978?<br>Queen Best II Box Set</div>
+  <div><img src="Scores/787.jpeg" width="100"></div>
+  <div>Rittor Music</div>
+<div class="divider"></div>
+
+  <div>1978<br>Queen II Rock Piano Sounds</div>
+  <div><img src="Scores/781.jpeg" width="100"></div>
+  <div>Rittor Music.  The "II" in the title refers to the volume of this score&mdash;it contains songs up to <I>News of the World</i></div>
+<div class="divider"></div>
+
+  <div>1978?<br>Queen Best Piano Songs</div>
+  <div><img src="Scores/782.jpeg" width="100"></div>
+  <div>Contains songs up to <I>News of the World</i></div>
+<div class="divider"></div>
+
+  <div>1978?<br>Queen 3</div>
+  <div><img src="Scores/783.jpeg" width="100"></div>
+  <div>Nichion Music. Guitar parts for <I>News of the World</i></div>
+<div class="divider"></div>
+
+  <div>1978?<br>News of the World Piano Score</div>
+  <div><img src="Scores/784.jpeg" width="100"></div>
+  <div>Nichion Music</div>
+<div class="divider"></div>
+
+  <div>1978?<br>News of the World Complete Score</div>
+  <div><img src="Scores/785.jpeg" width="100"></div>
+  <div>Nichion Music</div>
+<div class="divider"></div>
+
+  <div>1979?<br>Jazz Queen</div>
+  <div><img src="Scores/791.jpeg" width="100"></div>
+  <div>Nichion Music. Guitar parts for <I>Jazz</i></div>
+<div class="divider"></div>
+
+  <div>1978<br>Brian May Music Technique</div>
+  <div><img src="Scores/786.jpeg" width="100"></div>
+  <div>Shinko Music</div>
+<div class="divider"></div>
+
+  <div>1979<br>Queen Live Killers: Brian May's Live Guitar Technique</div>
+  <div><img src="Scores/792.jpeg" width="100"></div>
+  <div>Toshiba EMI</div>
+<div class="divider"></div>
+
+  <div>late 70s<br>Super Rock Guitarist: Brian May's Technique & Sound</div>
+  <div><img src="Scores/7X1.jpeg" width="100"></div>
+  <div>EMI</div>
+<div class="divider"></div>
+
+  <div>1980<br>Queen The Game Scorebook</div>
+  <div><img src="Scores/801.jpeg" width="100"></div>
+  <div>EMI</div>
+<div class="divider"></div>
+
+  <div>Early 80s<br>Queen Sounds Band Score</div>
+  <div><img src="Scores/8X1.jpeg" width="100"></div>
+  <div>Shinko Music.  Contains music through <I>The Game</i></div>
+<div class="divider"></div>
+
+  <div>1984<br>Queen Super Best with Tablature</div>
+  <div><img src="Scores/841.jpeg" width="100"></div>
+  <div>DoReMi. 4-810-85346-2</div>
+<div class="divider"></div>
+
+  <div>1991<br>Queen Best Band Score</div>
+  <div><img src="Scores/911.jpeg" width="100"></div>
+  <div>Shinko Music.  Guitar/bass</div>
+<div class="divider"></div>
+
+  <div>1994<br>Queen Best Band Score</div>
+  <div><img src="Scores/941.jpeg" width="100"></div>
+  <div>Shinko Music.  4-401-34756-0</div>
+<div class="divider"></div>
+
+  <div>1994, 2002, 2005<br>Queen Off the Record</div>
+  <div><img src="Scores/942.jpeg" width="100"></div>
+  <div>1-859-09224-8</div>
+<div class="divider"></div>
+
+  <div>199?<br>Queen Made in Heaven Wide Edition</div>
+  <div><img src="Scores/9X1A.jpeg" width="100"><img src="Scores/9X1B.jpeg" width="100"></div>
+  <div>Guitar score.  4-401-36635-4</div>
+<div class="divider"></div>
+
+  <div>1996<br>Queen Karaoke Best 10</div>
+  <div><img src="Scores/961.jpeg" width="100"></div>
+  <div>Lead guitar parts, came with CD</div>
+<div class="divider"></div>
+
+  <div>1998<br>Queen Best Band Score</div>
+  <div><img src="Scores/981.jpeg" width="100"></div>
+  <div>Shinko Music.  4-401-34879-4</div>
+<div class="divider"></div>
+
+  <div>1998<br>Queen Super Best</div>
+  <div><img src="Scores/982.jpeg" width="100"></div>
+  <div>DoReMi.  4-810-85914-0</div>
+<div class="divider"></div>
+
+  <div>199?<br>Queen Super Best vol. 2</div>
+  <div><img src="Scores/9X2.jpeg" width="100"></div>
+  <div>DoReMi. 4-8108-5949-5</div>
+<div class="divider"></div>
+
+  <div>2000<br>Queen Piano Collection</div>
+  <div><img src="Scores/001.jpeg" width="100"></div>
+  <div>Shinko Music.  4-401-01439-2</div>
+<div class="divider"></div>
+
+  <div>200?<br>Queen Greatest Hits Sheet Music</div>
+  <div><img src="Scores/0X1.jpeg" width="100"></div>
+  <div>Shinko Music version of Hal-Leonard book</div>
+<div class="divider"></div>
+
+  <div>2001<br>Queen in Vision</div>
+  <div><img src="Scores/011.jpeg" width="100"></div>
+  <div>Rittor Music.  Band Score</div>
+<div class="divider"></div>
+
+  <div>2004<br>Queen Rocks Band Score</div>
+  <div><img src="Scores/041.jpeg" width="100"></div>
+  <div>EMI.  4-899-9-99121-2</div>
+<div class="divider"></div>
+
+  <div>2005?<br>Best of Queen Band Score</div>
+  <div><img src="Scores/051.jpeg" width="100"></div>
+  <div>Shinko Music version of Hal-Leonard book</div>
+<div class="divider"></div>
+
+  <div>2014, 2016<br>Queen piano Solo & Singalong</div>
+  <div><img src="Scores/141A.jpeg" width="100"><img src="Scores/141B.jpeg" width="100"></div>
+  <div>Shinko Music.  4-401-03395-9</div>
+<div class="divider"></div>
+
+  <div>2018<br>Queen Sheet Music</div>
+  <div><img src="Scores/181.jpeg" width="100"></div>
+  <div>DoReMi.  Guitar & karaoke, came with CD.  4-285-14794-0</div>
+<div class="divider"></div>
+
+  <div>2019<br>Queen Singalong with Piano</div>
+  <div><img src="Scores/191.jpeg" width="100"></div>
+  <div>Shinko Music.  4-401-03801-5</div>
+<div class="divider"></div>
+
+  <div>2019<br>Queen Piano Solo</div>
+  <div><img src="Scores/192.jpeg" width="100"></div>
+  <div>Shinko Music.  4-401-03795-7</div>
+<div class="divider"></div></div>
+
+<br><br>
+<center><a href="#top">Back to top</a>
+</center>
+<br><br>
+
+<h2 id="lyrics">Lyric Books</h2>
+<div class="data-grid-mags">
+  <div class="header">Name/Date</div>
+  <div class="header">Cover</div>
+  <div class="header">Publisher/Notes/ISBN</div>
+
+  <div>1978<br>Queen Lyrics</div>
+  <div><img src="Lyrics/781.jpeg" width="100"></div>
+  <div>Shinko Music.  Contains all lyrics up to <I>News of the World</i></div>
+<div class="divider"></div>
+
+  <div>1982<br>Queen Lyrics Rock Book</div>
+  <div><img src="Lyrics/821.jpeg" width="100"></div>
+  <div>Shinko Music</div>
+<div class="divider"></div>
+
+  <div>1986<br>Queen Poem Collection</div>
+  <div><img src="Lyrics/861.jpeg" width="100"></div>
+  <div>Shinko Music.  Contains all lyrics up to <I>A Kind of Magic.</i>  4-401-61734-7</div>
+<div class="divider"></div>
+
+  <div>2002<br>Complete Queen Poetry Collection</div>
+  <div><img src="Lyrics/021.jpeg" width="100"></div>
+  <div>Shinko Music.  4-401-61734-7</div>
+<div class="divider"></div>
+
+  <div>2011<br>Complete Queen Poetry Collection</div>
+  <div><img src="Lyrics/111.jpeg" width="100"></div>
+  <div>Shinko Music.  4-401-63549-3</div>
+<div class="divider"></div>
+
+  <div>2019<br>Queen the Complete Lyrics</div>
+  <div><img src="Lyrics/191.jpeg" width="100"></div>
+  <div>Shinko Music.  4-401-64728-9</div>
+<div class="divider"></div></div>
+
+</div>
+<br><br>
+<center><a href="#top">Back to top</a>
+</center>
+<br><br>
+
+</div>
+<br><br>
+
+<br><br>
+      <br>
+      <hr>
+      <br>
+
+      <center>
+        <img src="../images/BACK.png" width="75%" alt="Back" onclick="history.back()" style="cursor:pointer;">
+      </center>
+    </div> <!-- END text-content -->
+
+  </div> <!-- END content-container -->
+</main>
+
+  <!-- Footer -->
+  <footer>
+    <p>QueenInJapan.com</p>
+    <p>All fan materials, drawings, etc will be credited to the creator whenever possible.  Artwork has been stylized for this site.  Homepage illustrations and Queen Japanese crest artwork done by yours truly.  <a href="https://danielduret.nl/queenfont/">Queen font</a> by Daniel Duret.  No AI was involved in any part of this website, except to help check the coding because I don't know what I'm doing.  
+</p>
+<p>If you have any Japanese Queen memorabilia you’d like to sell, please email the webmistress at
+      <a href="mailto:queeninjapan@gmail.com">QueenInJapan@gmail.com</a></p>
+    <p>もし売りたいクイーンの日本のメモラビリアがありましたら、遠慮なく
+      <a href="mailto:queeninjapan@gmail.com">メール</a>してください。特に同人誌やファンジーンに興味があります。日本語でも連絡してもOKです。</p>
+  </footer>
+
+  <!-- Sidebar Script -->
+  <script>
+    function toggleNav() {
+     const sidebar = document.getElementById("mySidebar");
+sidebar.classList.toggle("open");
+}
+
+</script>
+<script>
+document.addEventListener("click", function (event) {
+const sidebar = document.querySelector(".sidebar");
+const menuButton = document.querySelector(".menu-button");
+
+if (sidebar.classList.contains("open") &&
+!sidebar.contains(event.target) &&
+!menuButton.contains(event.target)) {
+sidebar.classList.remove("open");
+}
+});
+  </script>
+</body>
+</html>
