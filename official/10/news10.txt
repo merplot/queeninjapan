@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Queen in Japan • 日本の愛されたクイーン</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <nav id="mySidebar" class="sidebar">
+    <a href="../../index.html"><img src="../images/top-icon.png" class="icon" alt="">Home</a>
+    <a href="../../official.html"><img src="../images/official-icon.png" class="icon" alt="">Official Japanese Fanclub Magazines</a>
+    <a href="../../unofficial.html"><img src="../images/unofficial-icon.png" class="icon" alt="">Unofficial Japanese Fanclub Magazines</a>
+    <a href="../../manga.html"><img src="../images/manga-icon.png" class="icon" alt="">Queen in Manga <br>& Doujinshi</a>
+    <a href="../../press.html"><img src="../images/press-icon.png" class="icon" alt="">Queen in Japanese Press</a>
+    <a href="../../promo.html"><img src="../images/promo-icon.png" class="icon" alt="">Japanese Promo Materials</a>
+    <a href="../../about.html"><img src="../images/about-icon.png" class="icon" alt="">About</a>
+  </nav>
+
+  <!-- Toggle Button -->
+  <span class="menu-button" onclick="toggleNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+<header class="double-header">
+<div class="header-images">
+
+<!-- Second image (left-aligned) -->
+<div class="header-image-left">
+<img src="../images/officialFCheader.png" alt="">
+</div>
+
+<!-- First image (right-aligned, next to menu button) -->
+<div class="header-image-right">
+<a href="../../official.html"> <img src="../images/QIJheader_official.png" alt="Queen in Japan"></a>
+</div>
+</div>
+</header>
+
+  <!-- Content -->
+  <main>
+  <div class="text-content">
+<center>
+<H3>News of the Queen</h3> 
+</center>
+<br>
+     <figure class="float-right img-small">
+  <img src="fc10_1.png">
+<figcaption>by Mineko Yamada</figcaption>
+</figure>
+Happy New Year!  It's the year of the Horse.  In this year's Music Life popularity poll, which began last year, Queen is still leading the way.  Kiss is closing in on them, though.  Go Queen!  Shake off Kiss!  But that's not all&mdash;you've got Zeppelin, Rainbow, Aerosmith, and even the longshot Fleetwood Mac in that poll as well.  So go Queen!  The results may be decided by the time this issue arrives.
+<br><br>
+By the way, do you know how old the members of Queen are?  John was born in 1951, the year of the Rabbit.  Wow, he fits that image perfectly!  Freddie was born in 1946, so he's a Rooster.  Hmm, very cunning!  Brian is a Tiger, having been born in 1947.  And Roger is an Ox!
+<br><br>
+January 4th, 1979... do you know the significance of this date?  January 4th of next year...I bet you don't know.  It's the 10,000th day since John was born.  Mr. S from the main office calculated it in his spare time.  What a bored guy!  When will your 10,000th day be?
+<br><br>
+Alright now, enough of that nonsense... let's move on to some Queen news!  They finished their US tour on December 22nd last year, after which they returned home to England and went on a break.  As of the end of January, their schedule has still not been announced.  They're at the stage where they're considering what they want to do next, but they're not at a point where they can make any announcements yet.  Last year was a busy year for them, so I guess it'd be good for them to take some time off for a while.
+<br><br>
+It has not yet been decided when they'll be returning to Japan.  The rumors in magazines are just that&mdash;rumors.  The promoter for the past two tours in Japan was World Leisure, a subsidiary of Watanabe Productions (Nabepro).  But starting last year, Queen's promotion has been taken over by Watanabe Enterprises, a different subsidiary of Nabepro.  Recently, Misa Watanabe, the vice president of Nabepro, received a painting from John Reid and some skin powder from Freddie.  In light of this, maybe this year will be the year for Queen's third Japanese visit. 
+<br><br>
+<I>We Are The Champions</i> is slowly climbing the charts.  In Japan, it quickly gained popularity after its release and quickly rose to the top, but in the US and UK it gradually entered the charts around November of last year and has been climbing little by little ever since.  It's currently in the top 10 and still going... it's only a matter of time until it's number one.  The music video for it is now showing on Ginza NOW and other TV channels.  This video was shot on October 6th of last year, with a sudden gathering of fans.  900 or so people lined up outside the New London Theater in Drury Lane from early in the morning that day, and there were delays with checking the equipment so it was a bit different from a normal concert.  First, the record <I>We Are The Champions</i> was played several times, allowing the audience to get used to the song.  Then the band came onstage and performed it seven or eight times, because the person filming wanted to get shots from various angles.  Once filming was finished, they played about ten songs for the people gathered: <I>Tie Your Mother Down</i>, <I>Somebody to Love</i>, <I>White Man</i>, <I>Bohemian Rhapsody</i>, <I>Keep Yourself Alive</i>, <I>Liar</i>, etc.  And for the encore, they played <I>See What A Fool I've Been</i>, which hasn't been released in Japan.  How envious I am!
+<br><br>
+I wonder if they'll make a video in Japan someday.  There was another camera rolling onstage, and this was the production team behind the documentary that aired on British TV in January.  I wonder if that will be aired in Japan at some point.  Maybe I should ask NHK.
+<br><br>
+<I>Dedicated to the World [the Japanese title of 'News of the World']</i> also seems to be well-received, so everything is going swimmingly.  By the way, you may know that the original English title, "News of the World", is the name of a British newspaper, but do you know what kind of paper it is?  According to the encyclopedia, it's a "massively distributed Sunday newspaper in the UK.  It's known for its sensationalism, with many articles about sex and crime.  It has a circulation of 5.23 million".  I don't have any actual copies with me yet, so I can't say for myself, but judging by this description it sounds like a tabloid.
+<br><br>
+Do you know what became of that song that Freddie produced, Eddie Howell's <I>Man from Manhattan</i>?  He's apparently released two albums in the UK.  Freddie doesn't seem to have influenced the sound at all, apart from the aforementioned single.  There aren't any plans to release it Japan.
+<br><br>
+As for Peter Straker, I dont know much about him, but the other day I bought <I>I Robot</i> by the Alan Parsons Project, and he was listed in the vocal credits.  I think it's a masterpiece of a record and one of the best albums of last year.  What do you think?
+<br><br>
+Now, finally, here's a quiz for you: As you know, the members of Queen lived in Kensington in the early days (near Hyde Park, where they later held their free concert).  There's a famous fairytale that begins in Kensington.  Can you guess the name?  Probably not.  The correct answer is "Peter Pan".  <I>PII-TAA PANNN</i>...Wow... what a mouthful!
+<br><br>
+See you at the spring fan gathering.  Bye.
+
+
+
+
+
+<br><br>
+<p style="text-align: right;">&mdash;Inouye</p>
+
+
+<br><br>
+
+
+
+      <br>
+      <hr>
+      <br>
+
+      <center>
+        <img src="../images/BACK.png" width="75%" alt="Back" onclick="history.back()" style="cursor:pointer;">
+      </center>
+    </div> <!-- END text-content -->
+
+  </div> <!-- END content-container -->
+</main>
+
+  <!-- Footer -->
+  <footer>
+    <p>QueenInJapan.com</p>
+    <p>All fan materials, drawings, etc will be credited to the creator whenever possible.  Artwork has been stylized for this site.  Homepage illustrations and Queen Japanese crest artwork done by yours truly.  <a href="https://danielduret.nl/queenfont/">Queen font</a> by Daniel Duret.  No AI was involved in any part of this website, except to help check the coding because I don't know what I'm doing.  
+</p>
+<p>If you have any Japanese Queen memorabilia you’d like to sell, please email the webmistress at
+      <a href="mailto:queeninjapan@gmail.com">QueenInJapan@gmail.com</a></p>
+    <p>もし売りたいクイーンの日本のメモラビリアがありましたら、遠慮なく
+      <a href="mailto:queeninjapan@gmail.com">メール</a>してください。特に同人誌やファンジーンに興味があります。日本語でも連絡してもOKです。</p>
+  </footer>
+
+  <!-- Sidebar Script -->
+  <script>
+    function toggleNav() {
+     const sidebar = document.getElementById("mySidebar");
+sidebar.classList.toggle("open");
+}
+
+</script>
+<script>
+document.addEventListener("click", function (event) {
+const sidebar = document.querySelector(".sidebar");
+const menuButton = document.querySelector(".menu-button");
+
+if (sidebar.classList.contains("open") &&
+!sidebar.contains(event.target) &&
+!menuButton.contains(event.target)) {
+sidebar.classList.remove("open");
+}
+});
+  </script>
+</body>
+</html>
