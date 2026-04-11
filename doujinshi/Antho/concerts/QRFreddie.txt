@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Queen in Japan • 日本の愛されたクイーン</title>
+
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../../../style.css">
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <nav id="mySidebar" class="sidebar">
+    <a href="../../../index.html"><img src="../../images/top-icon.png" class="icon" alt="">Home</a>
+    <a href="../../../official.html"><img src="../../images/official-icon.png" class="icon" alt="">Official Japanese Fanclub Magazines</a>
+    <a href="../../../unofficial.html"><img src="../../images/unofficial-icon.png" class="icon" alt="">Unofficial Japanese Fanclub Magazines</a>
+    <a href="../../../manga.html"><img src="../../images/manga-icon.png" class="icon" alt="">Queen in Manga <br>& Doujinshi</a>
+    <a href="../../../press.html"><img src="../../images/press-icon.png" class="icon" alt="">Queen in Japanese Press</a>
+    <a href="../../../promo.html"><img src="../../images/promo-icon.png" class="icon" alt="">Japanese Promo Materials</a>
+    <a href="../../../about.html"><img src="../../images/about-icon.png" class="icon" alt="">About</a>
+  </nav>
+
+  <!-- Toggle Button -->
+  <span class="menu-button" onclick="toggleNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+<header class="double-header">
+<div class="header-images">
+
+<!-- Second image (left-aligned) -->
+<div class="header-image-left">
+<img src="../comicanthheader.png" alt="">
+</div>
+
+<!-- First image (right-aligned, next to menu button) -->
+<div class="header-image-right">
+<a href="../../../manga.html"> <img src="../../images/QIJheader_manga.png" alt="Queen in Japan"></a>
+</div>
+</div>
+</header>
+
+  <!-- Content -->
+  <main>
+  <div class="text-content">
+<center>
+<H3>Freddie was the Greatest &mdash; the Story of November 24th, 1991</h3> 
+<h2>by Manya</h2></center>
+
+By coincidence, I am currently working boots-on-the-ground in a corner of what is called "the industry", so I would like to follow up on a request to re-examine the various reactions to that day, including my own personal reflections.  (Please note that this will be limited to the Fukuoka region.)
+<br><br>
+On Sunday November 24th, I was on a live radio long-format segment.  The station had a direct contract with Reuters, and dedicated translators were on-hand to read the submitted transcripts, translate them to Japanese, and run them over to the studio.  That day, the announcement that Freddie had AIDS arrived, and the program's host read it on-air.  However, perhaps due to a poor translation or perhaps because someone was insecure in his own sexuality and was trying to maintain appearances, after the host read "Freddie announced that he has AIDS and asks for everyone to join him in his fight," he continued, "Who does this guy think he is?!  He got this because he has homosexual tendencies, so why is he saying stuff like that?"  I later checked the text, and while it was a very literal translation and difficult to understand, that's what was written.
+<br><br> 
+ <figure class="float-left img-xsmall">
+  <img src="images/coldfred.jpeg">
+<figcaption><I>Knock it off, Freddie, I'm <a href="https://en.wikipedia.org/wiki/Kotatsu">getting cold.</a></i><br></figcaption>
+</figure>
+The next day, Monday the 25th, conversations (mixed with plenty of jokes) had been going on at the Toshiba EMI Fukuoka office all day.  At noon, the staff of the long-form program at the aforementioned station returned to the studio after lunch to find the Reuters ticker message announcing his death.  A male announcer in his late 20s ran to the record room, saying "Oh, I need to prepare a song!" and grabbed the first thing that came to mind, <I>Bohemian Rhapsody</i>.  At 12:25, the song was played during the World News segment and a female announcer in her early 30s announced the news.  Given the nature of the situation, they deliberately refrained from any commentary, simply reporting the facts.  She seemed more surprised than sad at the news.  "Freddie was a notable AIDS example, and the impact of this disease will be felt as more and more people are affected, especially for the current generation thinking about sex and starting a family, and especially his generation of fans as they come to terms with his death."  It was just after 2 o'clock, and the news was also broadcast on the local FM radio.  In the evening a fax arrived at the Toshiba EMI Fukuoka office, and the atmosphere at the company suddenly shifted.  A rough, handwritten message from headquarters was sent.  The suddenness of his death left dealers and other relevant departments struggling to make contact with each other.  Record store executives (who had been huge fans) began calling, saying they had seen him on TV and wanted to know more details.  Amid the flurry of activity, some began to say, "This will sell!"  Obituaries and product information were compiled and sent to major record stores.  <I>Greatest Hits Vol. 1</i>, along with videos, apparently sold so well that it was out of stock through both December and January.  I myself was off work this day, and I received a desperate phone call from a friend who had heard about it while listening to the radio at work, just after 3 PM, and was informed of the news.
+<br><br>
+The evening papers reported lots of things that weren't true.  The Mainichi Shimbun, reporting information from their London bureau, stated that he had visited Japan "twice, in 1979 and 1981".  Following the AIDS announcement, the Nikkan Sports, quoting London correspondent Masako Suzuki, repeated a lot of terrible off-color rumors from British tabloids like <I>News of the World</i> and the like.  It was terribly embarrassing to see a Japanese sports publication simply parroting British tabloids as though they were on par with a Japanese weekly newspaper.  The way they wrote made it seem like they didn't expect to be held responsible for what appeared in their paper, and it was really shameful given that the Nikkan was an otherwise reliable source of domestic entertainment news.  As a Japanese reporter based in the UK, you should know to take into account the differences between what constitutes a "newspaper" in Japan and the UK.
+<br><br>
+Wednesday the 27th was my first day back at work since the news broke.  The people in charge of music programs kept coming up to me.  "We want to do a feature&mdash;what do you think of this song selection?"  "We want to respond to listener requests&mdash;but what do you think about this choice?" And so on and so on.  I was prepared for it, and I was grateful, but I could only think of a few things.  Still, I tried to contribute, but I was stumped on a few topics.  The announcer didn't even bother to take notes, and made me feel a bit uneasy.
+<br><br>
+Thursday the 28th was the recording day for a program that had been exclusively showcasing Japanese rock for the past 13 years.  I met with DJ Kanabunya, who is unrivaled in Kyushu when it comes to music, both Japanese and foreign.  His programs were always a treat for music fans.  A few years prior he had been frustrated by EMI's lack of support for <I>The Miracle</i> when it came out, and made a flyer slamming EMI to hang in his office.  He said "This album is so good it transcends whether you like the band or not.  Something this great has to sell."  An excerpt from the flyer read, "Don't translate <I>Miracle</i> as "miracle", translate it as "divine skill"... Miracles involve coincidence, but this is reality, not coincidence.  It's a feat that only they could pull off... if you try to tell me this won't sell, you're lying."
+<br><br>
+But let's return to the 28th.  Upon seeing my expression, Kanabunya began, "We're going to play the last song for the night, and I want you to pick."  I said, "If it's just because I'm the fan in the room, I'll pass."  He said, "No, this is a big deal for all rock fans, regardless of whether they're Westerners or Japanese, so we can't just ignore it."  Then he said, "We did a feature on FM radio, but we just played a bunch of highlights, all the singles, and finished with <I>Bad Guy</i>".  As I listened, regrets from the previous day flooded into my mind.  The feature made by those people who'd spoken to me first thing that morning was so sloppy, full of mistakes, and lacked a shred of sense.  Why didn't they cooperate more fully?  It was so perfunctory, even though I was there... but today's DJ was Kanabunya.  Now I had a chance to choose a song.  It had to be a popular song, one of their signature songs, and it had to show off Freddie's charm.  And the significance of me choosing it... I wrote down a song on the cue sheet, a song that featured his vocals, his piano, his melody, his lyrics, taking into consideration the role of this song in live performances, as well as the meaning of this song in that era... anyone who had known the band since the 70s would understand.
+<br><br>
+    <figure class="float-right img-xxsmall">
+  <img src="images/lilfred.jpeg">
+<figcaption><I>pitter pat</i><br>by Hideko</figcaption>
+</figure>
+By this time, many media outlets had taken up his story.  Indeed, for about a week, requests and condolences poured in not only from music fans, but also from housewives and office workers, and even radio programs that wouldn't normally mention them played Queen songs.  Because he died of AIDS and the fact the World AIDS Day occurred a few days later could be considered factors too, but the fact that these were people who had experienced the culture movement of the 1970s was also a major factor.  And of the comments following his death, the one that made the biggest impression on me was Kanabunya, mentioned earlier.  He wasn't even a fan of the band to begin with, and personally might even fall into the category of people who were actively disinterested.  But as he played the song, he was weeping so much that he could no longer see the equipment, and as soon as the song was over, he turned off the lights and began to sob.  Kanabunya had not prepared a script, so here, with gratitude, I would like to present his account in his own words.
+<br><br>
+"Today, I talked about The Lost, who come from New York.  I followed them around all day and interviewed them, and when I said, 'He's passed away', they said 'Yes, we know.  We play completely different music, but we know him and we've listened to his records.  He was a great musician and a wonderful vocalist.  We're not going to make a public statement, but we'll dedicate the Fukuoka concert to him&mdash;that's how we'll perform.'  If you watch the entertainment news in Japan right now, there's a lot of fuss about Ken Uehara, but for those of us who have listened to rock music, Freddie was one of the greatest&mdash;we were shocked just to hear he had gotten ill, but then the news that he had passed came so quickly after.  I don't know what to say, it's hard to express these things, but a vocalist with such a wide vocal range, and such a keen sensibility for incorporating classical, opera, and jazz into rock music... I don't think we'll ever see another one like him, but the one thing I can say is that&mdash;and I think I'm speaking for everyone here&mdash;at a time when I loved music the most, or rather, when I was at my most impressionable age, listening to a lot of music, thinking about a lot of things, growing up... and then coming to know of this band, being aware of such a great vocalist... it was such a wonderful thing, and I think we can be proud of that.  Even though he is no longer with us, we can still hear his voice on so many recordings.  We may not be able to see his live shows anymore, but there are many stories left to tell.  I hope he rests in peace.  And now, I would like to say goodbye with this song.  Queen."
+<br><br>
+<I>We Are The Champions</i>
+
+
+
+<br><br>
+     
+      <hr>
+      <br>
+
+      <center>
+        <img src="../../images/BACK.png" width="75%" alt="Back" onclick="history.back()" style="cursor:pointer;">
+      </center>
+    </div> <!-- END text-content -->
+
+  </div> <!-- END content-container -->
+</main>
+
+  <!-- Footer -->
+  <footer>
+    <p>QueenInJapan.com</p>
+    <p>All fan materials, drawings, etc will be credited to the creator whenever possible.  Artwork has been stylized for this site.  Homepage illustrations and Queen Japanese crest artwork done by yours truly.  <a href="https://danielduret.nl/queenfont/">Queen font</a> by Daniel Duret.  No AI was involved in any part of this website, except to help check the coding because I don't know what I'm doing.  
+</p>
+<p>If you have any Japanese Queen memorabilia you’d like to sell, please email the webmistress at
+      <a href="mailto:queeninjapan@gmail.com">QueenInJapan@gmail.com</a></p>
+    <p>もし売りたいクイーンの日本のメモラビリアがありましたら、遠慮なく
+      <a href="mailto:queeninjapan@gmail.com">メール</a>してください。特に同人誌やファンジーンに興味があります。日本語でも連絡してもOKです。</p>
+  </footer>
+
+  <!-- Sidebar Script -->
+  <script>
+    function toggleNav() {
+     const sidebar = document.getElementById("mySidebar");
+sidebar.classList.toggle("open");
+}
+
+</script>
+<script>
+document.addEventListener("click", function (event) {
+const sidebar = document.querySelector(".sidebar");
+const menuButton = document.querySelector(".menu-button");
+
+if (sidebar.classList.contains("open") &&
+!sidebar.contains(event.target) &&
+!menuButton.contains(event.target)) {
+sidebar.classList.remove("open");
+}
+});
+  </script>
+</body>
+</html>
+

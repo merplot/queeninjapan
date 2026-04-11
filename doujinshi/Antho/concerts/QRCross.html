@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Queen in Japan • 日本の愛されたクイーン</title>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../../../style.css">
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <nav id="mySidebar" class="sidebar">
+    <a href="../../../index.html"><img src="../../images/top-icon.png" class="icon" alt="">Home</a>
+    <a href="../../../official.html"><img src="../../images/official-icon.png" class="icon" alt="">Official Japanese Fanclub Magazines</a>
+    <a href="../../../unofficial.html"><img src="../../images/unofficial-icon.png" class="icon" alt="">Unofficial Japanese Fanclub Magazines</a>
+    <a href="../../../manga.html"><img src="../../images/manga-icon.png" class="icon" alt="">Queen in Manga <br>& Doujinshi</a>
+    <a href="../../../press.html"><img src="../../images/press-icon.png" class="icon" alt="">Queen in Japanese Press</a>
+    <a href="../../../promo.html"><img src="../../images/promo-icon.png" class="icon" alt="">Japanese Promo Materials</a>
+    <a href="../../../about.html"><img src="../../images/about-icon.png" class="icon" alt="">About</a>
+  </nav>
+
+  <!-- Toggle Button -->
+  <span class="menu-button" onclick="toggleNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+<header class="double-header">
+<div class="header-images">
+
+<!-- Second image (left-aligned) -->
+<div class="header-image-left">
+<img src="../comicanthheader.png" alt="">
+</div>
+
+<!-- First image (right-aligned, next to menu button) -->
+<div class="header-image-right">
+<a href="../../../manga.html"> <img src="../../images/QIJheader_manga.png" alt="Queen in Japan"></a>
+</div>
+</div>
+</header>
+
+  <!-- Content -->
+  <main>
+  <div class="text-content">
+<center>
+<H3>The Cross UK Tour &mdash; 1988</h3> 
+<h2>by Mendousutera</h2></center>
+
+    <figure class="float-right img-xxsmall">
+  <img src="images/IMG_cross01.jpeg">
+<figcaption>by Hideko</figcaption>
+</figure>Even thought I've been accused of being a fair-weather Queen fan, I can say with confidence that I'm a bonafide Roger Taylor fan, so seeing his own band's tour was a dream come true for me, a life-long hope I had been harboring even if it meant the break-up of a more "fulfilling" band such as Queen (controversial statement, I know).  So with that in mind, I'll give my brief report.  
+<br><br>
+
+    <figure class="float-left img-xsmall">
+  <img src="images/IMG_cross02.jpeg">
+</figure>As soon as I found out The Cross was going to give a small-scale tour with capacities of around 1,000 people a pop, I quit my job and hopped on a plane... possibly squandering everything else I had known in my life.  This might be my last chance to see Roger sing (and...dance?) with my own eyes!  This was going to be on a completely different level from Queen, so for anyone who might dislike Roger (do such people actually exist??), it might've been the perfect opportunity to trash him.  
+<br><br>Roger's performance as a frontman and lead singer was so characteristic of him, bringing bringing such joy to his fans.  Example #1: he never sang <I>I'm in Love with My Car</i> without making a mistake the entire tour.  Example #2: on the second date, when they performed <I>It's an Illusion</i>, which was added to the setlist midway through, he had trouble seeing the cheatsheet, so the audience helped him out and he ended up holding the sheet in his hand the entire time.  This guy, I swear...  For his fans, everything he does is adorable and they just go, "That's our Rog!" but they have to know that this behavior would not be tolerated otherwise.  Since the crowd was made up of Queen fans, and Roger fans in particular, he could absolutely do as he pleased.  His boyish eyes helped to sublimate the frustrations of his fanbase and his tour ended up a great success in terms of turnout and revenue.  
+<br><br>
+Note: His mother came to a show, Brian came to a show, and I'm sure Freddie and John were there somewhere too, plus a lot of his friends made appearances and as much noise as a regular audience!  Rog truly is an idol in his industry.
+
+
+
+<br><br>
+   
+      <hr>
+      <br>
+
+      <center>
+        <img src="../../images/BACK.png" width="75%" alt="Back" onclick="history.back()" style="cursor:pointer;">
+      </center>
+    </div> <!-- END text-content -->
+
+  </div> <!-- END content-container -->
+</main>
+
+  <!-- Footer -->
+  <footer>
+    <p>QueenInJapan.com</p>
+    <p>All fan materials, drawings, etc will be credited to the creator whenever possible.  Artwork has been stylized for this site.  Homepage illustrations and Queen Japanese crest artwork done by yours truly.  <a href="https://danielduret.nl/queenfont/">Queen font</a> by Daniel Duret.  No AI was involved in any part of this website, except to help check the coding because I don't know what I'm doing.  
+</p>
+<p>If you have any Japanese Queen memorabilia you’d like to sell, please email the webmistress at
+      <a href="mailto:queeninjapan@gmail.com">QueenInJapan@gmail.com</a></p>
+    <p>もし売りたいクイーンの日本のメモラビリアがありましたら、遠慮なく
+      <a href="mailto:queeninjapan@gmail.com">メール</a>してください。特に同人誌やファンジーンに興味があります。日本語でも連絡してもOKです。</p>
+  </footer>
+
+  <!-- Sidebar Script -->
+  <script>
+    function toggleNav() {
+     const sidebar = document.getElementById("mySidebar");
+sidebar.classList.toggle("open");
+}
+
+</script>
+<script>
+document.addEventListener("click", function (event) {
+const sidebar = document.querySelector(".sidebar");
+const menuButton = document.querySelector(".menu-button");
+
+if (sidebar.classList.contains("open") &&
+!sidebar.contains(event.target) &&
+!menuButton.contains(event.target)) {
+sidebar.classList.remove("open");
+}
+});
+  </script>
+</body>
+</html>
+
