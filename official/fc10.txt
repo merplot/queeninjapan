@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Queen in Japan • 日本の愛されたクイーン</title>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body class="layout-leftimage">
+
+  <!-- Sidebar -->
+  <nav id="mySidebar" class="sidebar">
+    <a href="../index.html"><img src="images/top-icon.png" class="icon" alt="">Home</a>
+    <a href="../official.html"><img src="images/official-icon.png" class="icon" alt="">Official Japanese Fanclub Magazines</a>
+    <a href="../unofficial.html"><img src="images/unofficial-icon.png" class="icon" alt="">Unofficial Japanese Fanclub Magazines</a>
+    <a href="../manga.html"><img src="images/manga-icon.png" class="icon" alt="">Queen in Manga <br>& Doujinshi</a>
+    <a href="../press.html"><img src="images/press-icon.png" class="icon" alt="">Queen in Japanese Press</a>
+    <a href="../promo.html"><img src="images/promo-icon.png" class="icon" alt="">Japanese Promo Materials</a>
+    <a href="../about.html"><img src="images/about-icon.png" class="icon" alt="">About</a>
+  </nav>
+
+  <!-- Toggle Button -->
+  <span class="menu-button" onclick="toggleNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header id="home">
+  <a href="../official.html">  <h1><img src="images/QIJheader_official.png" alt="Queen in Japan"></h1></a>
+  </header>
+
+  <!-- Content -->
+  <main>
+  <div class="content-container">
+    <img src="10/fc10_cover.png" alt="Front Page" class="main-image">
+
+    <div class="text-content">
+
+<h2>Vol. 10 &mdash; Winter 1978 </h2>
+
+        <figure class="float-right img-xsmall">
+  <img src="10/fc10_3.png">
+<figcaption>by Yuuko Touda</figcaption>
+</figure>
+Vol. 10 is almost entirely previously printed English articles and interviews translated into Japanese, but there are also some New Years-themed cut illustrations and instructions on how to make your own Queen doll.  People are still trading tapes of <a href="../press/TV.html#sutaa">Star Sen</a> in the back, nearly three years after it was broadcast.
+<br><br>
+
+This letter appears from a fan:
+<br><br>
+ <I>Hello, I am a huge, HUGE Queen fan!  I especially love Freddie, and everyone always teases me for it.  But now I have a little story... a while ago, I was on a break from exams, and went to visit a temple with a friend.  We became friendly with a monk there (with a bald head, of course...) and this monk seemed a little different, his Japanese was a little different somehow.  So my friend and I asked him about it, and lo and behold he attended university in London.  That's all fine and good, but we didn't know what to make of what he said next.
+<br><br>
+
+       <figure class="float-left img-xsmall">
+  <img src="10/fc10_2.png">
+<figcaption>by Reiko Yamanaka</figcaption>
+
+</figure>
+"I went abroad to study, but rather than study, I spent all my time seeing rock bands," he told us.  "I skipped classes and went to discos and pubs, and I got to know the guys from Queen, especially Brian.  We got on well!"  This monk was claiming to have known them very well, and to be good friends with Brian.  At first, I mocked him, like "Yeah right, you're all talk!"  But after hearing his story, this monk suddenly seemed like a god to me.  When I asked him more about it, he told me that he and Brian were the same age and often hung out together back then.  Of Brian, he said "He is incredibly smart and knows his limits."
+<br><br>
+I was so surprised that I forgot to ask him about the other members that day (damnit!!)  But if I run into him again, I'll ask him.  So Queen and Japan had a connection before they even debuted.
+<br><br>
+P.S. I'm not going to name this monk nor the temple as it would cause him a lot of trouble.</i>
+
+<br><br>
+<a href="10/news10.html">News of the Queen</a>
+<br><br>
+
+      <br>
+      <hr>
+      <br>
+
+      <center>
+        <img src="images/BACK.png" width="75%" alt="Back" onclick="history.back()" style="cursor:pointer;">
+      </center>
+    </div> <!-- END text-content -->
+
+  </div> <!-- END content-container -->
+</main>
+
+  <!-- Footer -->
+  <footer>
+    <p>QueenInJapan.com</p>
+    <p>All fan materials, drawings, etc will be credited to the creator whenever possible.  Artwork has been stylized for this site.  Homepage illustrations and Queen Japanese crest artwork done by yours truly.  <a href="https://danielduret.nl/queenfont/">Queen font</a> by Daniel Duret.  No AI was involved in any part of this website, except to help check the coding because I don't know what I'm doing.  
+</p>
+<p>If you have any Japanese Queen memorabilia you’d like to sell, please email the webmistress at
+      <a href="mailto:queeninjapan@gmail.com">QueenInJapan@gmail.com</a></p>
+    <p>もし売りたいクイーンの日本のメモラビリアがありましたら、遠慮なく
+      <a href="mailto:queeninjapan@gmail.com">メール</a>してください。特に同人誌やファンジーンに興味があります。日本語でも連絡してもOKです。</p>
+  </footer>
+
+  <!-- Sidebar Script -->
+  <script>
+    function toggleNav() {
+     const sidebar = document.getElementById("mySidebar");
+sidebar.classList.toggle("open");
+}
+
+</script>
+<script>
+document.addEventListener("click", function (event) {
+const sidebar = document.querySelector(".sidebar");
+const menuButton = document.querySelector(".menu-button");
+
+if (sidebar.classList.contains("open") &&
+!sidebar.contains(event.target) &&
+!menuButton.contains(event.target)) {
+sidebar.classList.remove("open");
+}
+});
+  </script>
+</body>
+</html>
