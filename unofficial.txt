@@ -42,7 +42,7 @@
   <!-- Content -->
   <main>
 <div class="content-container">
-    <img id="random-frontpage" src="images/frontpage_copy.png" alt="Front Page" class="main-image">
+    <img id="random-frontpage" src="images/frontpage_copy.jpeg" alt="Front Page" class="main-image">
     <div class="text-content">
     <h2>Unofficial Japanese Fanclubs</h2>
     <p>

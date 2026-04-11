@@ -41,7 +41,7 @@
   <!-- Content -->
   <main>
   <div class="content-container">
-    <img src="official/3/FRONTPAGEFC.png" alt="Front Page" class="main-image">
+    <img src="official/3/FRONTPAGEFC.jpeg" alt="Front Page" class="main-image">
 
     <div class="text-content">
       <h2>The Official Queen Fanclub of Japan</h2>
@@ -63,46 +63,46 @@ I believe the Japanese Division was rolled over into the main International Fan 
 <hr>
 <br><br>
 <a href="official/fc1.html"><h2>Vol 1 &mdash; Autumn 1975</h2>
-<img src="official/1/fc1_cover.png" width="25%"></a>
+<img src="official/1/fc1_cover.jpeg" width="25%"></a>
 <br><br>
 <a href="official/fc2.html"><h2>Vol 2 &mdash; Winter 1976</h2>
-<img src="official/2/fc2_cover.png" width="25%"></a>
+<img src="official/2/fc2_cover.jpeg" width="25%"></a>
 <br><br>
 <a href="official/fc3.html"><h2>Vol 3 &mdash; Spring 1976</h2>
-<img src="official/3/fc3_cover.png" width="25%"></a>
+<img src="official/3/fc3_cover.jpeg" width="25%"></a>
 <br><br>
 <a href="official/fc4.html"><h2>Vol 4 &mdash; Summer 1976</h2>
-<img src="official/4/fc4_cover.png" width="25%"></a>
+<img src="official/4/fc4_cover.jpeg" width="25%"></a>
 <br><br>
 <a href="official/fc5.html"><h2>Vol 5 &mdash; Autumn 1976</h2>
-<img src="official/5/fc5_cover.png" width="25%"></a>
+<img src="official/5/fc5_cover.jpeg" width="25%"></a>
 <br><br>
 <a href="official/fc6.html"><h2>Vol 6 &mdash; Winter 1977</h2>
-<img src="official/6/fc6_cover.png" width="25%"></a>
+<img src="official/6/fc6_cover.jpeg" width="25%"></a>
 <br><br>
 <a href="official/fc7.html"><h2>Vol 7 &mdash; Spring 1977</h2>
-<img src="official/7/fc7_cover.png" width="25%"></a>
+<img src="official/7/fc7_cover.jpeg" width="25%"></a>
 <br><br>
 <a href="official/fc8.html"><h2>Vol 8 &mdash; Summer 1977</h2>
-<img src="official/8/fc8_cover.png" width="25%"></a>
+<img src="official/8/fc8_cover.jpeg" width="25%"></a>
 <br><br>
 <a href="official/fc9.html"><h2>Vol 9 &mdash; Autumn 1977</h2>
-<img src="official/9/fc9_cover.png" width="25%"></a>
+<img src="official/9/fc9_cover.jpeg" width="25%"></a>
 <br><br>
 <a href="official/fc10.html"><h2>Vol 10 &mdash; Winter 1978</h2>
-<img src="official/10/fc10_cover.png" width="25%"></a>
+<img src="official/10/fc10_cover.jpeg" width="25%"></a>
 <br><br>
 <a href="https://www.youtube.com/watch?v=Ts15B_PoA80"><h2>Vol 11 &mdash; Spring 1978</h2>
-<img src="official/11/fc11_cover.png" width="25%"></a>
+<img src="official/11/fc11_cover.jpg" width="25%"></a>
 <br><br>
 <a href="https://www.youtube.com/watch?v=Ts15B_PoA80"><h2>Vol 12 &mdash; Summer 1978</h2>
-<img src="official/12/fc12_cover.png" width="25%"></a>
+<img src="official/12/fc12_cover.jpg" width="25%"></a>
 <br><br>
 <a href="https://www.youtube.com/watch?v=Ts15B_PoA80"><h2>Vol 13 &mdash; Autumn 1978</h2>
-<img src="official/13/fc13_cover.png" width="25%"></a>
+<img src="official/13/fc13_cover.jpg" width="25%"></a>
 <br><br>
 <a href="https://www.youtube.com/watch?v=Ts15B_PoA80"><h2>Vol 14 &mdash; Winter 1979</h2>
-<img src="official/14/fc14_cover.png" width="25%"></a>
+<img src="official/14/fc14_cover.jpg" width="25%"></a>
 <br><br>
 
       <br>
