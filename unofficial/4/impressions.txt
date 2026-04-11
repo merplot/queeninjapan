@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Queen in Japan • 日本の愛されたクイーン</title>
+
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+
+  <!-- Sidebar -->
+  <nav id="mySidebar" class="sidebar">
+    <a href="../../index.html"><img src="../images/top-icon.png" class="icon" alt="">Home</a>
+    <a href="../../official.html"><img src="../images/official-icon.png" class="icon" alt="">Official Japanese Fanclub Magazines</a>
+    <a href="../../unofficial.html"><img src="../images/unofficial-icon.png" class="icon" alt="">Unofficial Japanese Fanclub Magazines</a>
+    <a href="../../manga.html"><img src="../images/manga-icon.png" class="icon" alt="">Queen in Manga <br>& Doujinshi</a>
+    <a href="../../press.html"><img src="../images/press-icon.png" class="icon" alt="">Queen in Japanese Press</a>
+    <a href="../../promo.html"><img src="../images/promo-icon.png" class="icon" alt="">Japanese Promo Materials</a>
+    <a href="../../about.html"><img src="../images/about-icon.png" class="icon" alt="">About</a>
+  </nav>
+
+  <!-- Toggle Button -->
+  <span class="menu-button" onclick="toggleNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+<header class="double-header">
+  <div class="header-images">
+
+    <!-- Second image (left-aligned) -->
+    <div class="header-image-left">
+      <img src="../QueenTimes/QTvol4header.png" alt="">
+    </div>
+
+    <!-- First image (right-aligned, next to menu button) -->
+    <div class="header-image-right">
+    <a href="../../unofficial.html">  <img src="../images/QIJheader_unofficial.png" alt=""></a>
+    </div>
+
+  </div>
+</header>
+
+
+
+
+  <!-- Content -->
+  <main>
+    <div class="text-content">
+        
+<center>
+<H3>Impressions of Queen</h3> 
+
+
+<h2>Freddie Mercury</h2>
+<br><br><img src="../QueenTimes/4/fredimpress.jpeg">
+</center>
+<br>
+<br>
+<br>
+<I>[Note: Freddie received a gag "Exorcist Award" in a </i>Music Life <i>magazine column in 1974 due to his ferocious perceived stage persona at the time.  </i>The Exorcist <i>had just been released in Japan and was a big hit.]</i>
+<br>Before coming to Japan, he received a certain "Exorcist Award" from a certain magazine, but in actuality he was an intelligent and beautiful young man with an intensely mysterious appearance.  His style was dripping with grace and elegance and he fairly floated around with the attitude of a champion.
+<br>
+<br>He's the most fashionable of all the members, and his costumes cut a fine figure even when he's offstage.  One gets the feeling that he is casting pearls before swine, as he gives off the feeling of aristocratic nobility, but in a way that can be summed up in one word: COOL!
+<br>
+<br>You never get a sense of sarcasm from him.  We guess it could be said that if feels like he was raised to be genteel.  Yes, offstage he is unexpectedly quiet, but onstage he is more animated <I>[lit. violent]</i> than you can imagine!
+<br><br>
+The people who claimed he was the "Exorcist of the Rock World" really ought to see him in person next time they come to Japan.  In reality he is a very unique and attractive young man.
+<br>
+<br>
+<br>
+<br>
+<br>
+<center>
+<h2>Roger Taylor</h2>
+<br><br><img src="../QueenTimes/4/rogimpress.jpeg"></center>
+<br>
+<br>
+<br>
+He's loved by all, having a good reputation with all related parties, and almost felt like their pet or something.  Yes, he really is that cute.
+<br>
+<br>
+His eyes are insanely huge, with long eyelashes coated in mascara, and they're always going round and round taking everything in, boiling over with great curiosity.  The bodyguards assigned to him would agree with us and say, "He's really cute, yeah he's definitely the cute one," while side-eyeing him.
+<br>
+<br>
+But he's not merely cute–he's unexpectedly put-together, and somehow he miraculously feels even more adult-like than Brian.  That is, no matter what problem arose, he didn't lose his head, and we get the feeling there's never a time when he'll stop smiling.
+<br>
+<br>
+Anyhow, he's so kind and cute, this sincere young man.  (Voice from the shadows: These sentences are full of an awful lot of adverbs and adjectives, huh?)
+<br>
+<br>
+<br>
+<br>
+<br><center>
+<h2>Brian May</h2>
+<br><br><img src="../QueenTimes/4/briimpress.jpeg"></center>
+<br><br><br>
+Brian was entirely as we expected.  So kind, always paying attention to us...
+<br><br>
+His looks are even better in person than in photos, and we would even call him cute.  And this guy!  So eye-catching.  He's SO tall, always wearing black suits... and then his hair is always unfurling in such a gorgeous manner.
+<br><br>
+Yep, it's said that that messy head is completely natural!  Surprising, right?
+<br><br>
+He's quiet and docile offstage, but he seems a bit hard to please.  Whenever we looked a bit bored, he'd peek at our faces and smile at us.
+<br><br>If we had to say one bad thing, it'd be that he's so difficult to please.  But he was a totally nice guy who enjoys friendly conversation.
+<br><br><br><br><br><center>
+<h2>John Deacon</h2>
+<br><br><img src="../QueenTimes/4/johnimpress.jpeg"></center>
+<br><br><br>
+This guy has come and gone and we still aren't quite sure what kind of human he is.
+<br><br>
+We assume that it's partially because he's the kind of guy whose mood changes with the weather.  When he was in a good mood he wouldn't stop grinning madly, and when he was in a bad mood he would completely ignore fans no matter what they said.
+<br><br>
+Maybe it's because he's not quite accustomed to being out in the world, so he has no skin?
+<br><br>But that doesn't mean he isn't bright with a good sense of humor.  That's right, he seems to have a really good relationship with Brian, since when we were in Brian's room John just sauntered right in and said "Hello!" like it was nothing, standing there and staring intently at us.  Their relationship felt good as though they were brothers, and the mood in the room was all smiles.
+<br><br>But is he an adult?  Is he a child?  We really couldn't tell&mdash;he was a refreshingly enigmatic person.
+<br><br>
+    
+<br>
+<hr>
+<br>
+<center>
+<img src="../images/BACK.png" width="75%" alt="Back" onclick="history.back()" style="cursor:pointer;">
+</center>
+</main>
+</div>
+</div>
+</main>
+  </main>
+</div>
+</div>
+</main>
+
+  <!-- Footer -->
+  <footer>
+    <p>QueenInJapan.com</p>
+    <p>All fan materials, drawings, etc will be credited to the creator whenever possible.  Artwork has been stylized for this site.  Homepage illustrations and Queen Japanese crest artwork done by yours truly.  <a href="https://danielduret.nl/queenfont/">Queen font</a> by Daniel Duret.  
+<br>No AI was involved in any part of this website, except to help check the coding because I don't know what I'm doing.  
+</p>
+<p>If you have any Japanese Queen memorabilia you’d like to sell, please email the webmistress at
+      <a href="mailto:queeninjapan@gmail.com">QueenInJapan@gmail.com</a></p>
+    <p>もし売りたいクイーンの日本のメモラビリアがありましたら、遠慮なく
+      <a href="mailto:queeninjapan@gmail.com">メール</a>してください。特に同人誌やファンジーンに興味があります。日本語でも連絡してもOKです。</p>
+  </footer>
+
+  <!-- Sidebar Script -->
+  <script>
+    function toggleNav() {
+     const sidebar = document.getElementById("mySidebar");
+sidebar.classList.toggle("open");
+}
+  </script>
+<script>
+document.addEventListener("click", function (event) {
+  const sidebar = document.querySelector(".sidebar");
+  const menuButton = document.querySelector(".menu-button");
+
+  // If sidebar is open AND click is outside both sidebar & button → close it
+  if (
+    sidebar.classList.contains("open") &&
+    !sidebar.contains(event.target) &&
+    !menuButton.contains(event.target)
+  ) {
+    sidebar.classList.remove("open");
+  }
+});
+</script>
+
+</body>
+</html>
