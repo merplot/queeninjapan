@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Queen in Japan • 日本の愛されたクイーン</title>
+
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <nav id="mySidebar" class="sidebar">
+    <a href="../index.html"><img src="images/top-icon.png" class="icon" alt="">Home</a>
+    <a href="../official.html"><img src="images/official-icon.png" class="icon" alt="">Official Japanese Fanclub Magazines</a>
+    <a href="../unofficial.html"><img src="images/unofficial-icon.png" class="icon" alt="">Unofficial Japanese Fanclub Magazines</a>
+    <a href="../manga.html"><img src="images/manga-icon.png" class="icon" alt="">Queen in Manga <br>& Doujinshi</a>
+    <a href="../press.html"><img src="images/press-icon.png" class="icon" alt="">Queen in Japanese Press</a>
+    <a href="../promo.html"><img src="images/promo-icon.png" class="icon" alt="">Japanese Promo Materials</a>
+    <a href="../about.html"><img src="images/about-icon.png" class="icon" alt="">About</a>
+  </nav>
+
+  <!-- Toggle Button -->
+  <span class="menu-button" onclick="toggleNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+<header class="double-header">
+  <div class="header-images">
+
+    <!-- Second image (left-aligned) -->
+    <div class="header-image-left">
+      <img src="kingsrd/krheader.png" alt="">
+    </div>
+
+    <!-- First image (right-aligned, next to menu button) -->
+    <div class="header-image-right">
+     <a href="../manga.html"> <img src="../images/QIJheader_manga.png" alt=""></a>
+    </div>
+
+  </div>
+</header>
+
+
+
+
+  <!-- Content -->
+  <main>
+<div class="text-content">
+<center>
+<h3>Queen: A Magnificent Trajectory</h3>
+<h2>by Ikumi Obama, Rock Music Magazine vol. 1 1976</h2>
+<I>Note: Everything about this comic is bizarre.  It’s a completely fictional spoof on Queen’s origin that appeared in an underground music zine based out of Kansai and is much more cynical and adult-oriented than shoujo manga.  It ostensibly takes place in London, but it’s written as though it takes place in Japan&mdash;Japanese geography, culture, and language are all reflected.  Brian even speaks in Tsugaruben, an obscure, difficult-to-translate northern accent; this gives him a country bumpkin feel although of course in real life Brian is actually extremely intelligent.  Everyone is written way out-of-character.  There is some BL subtext, but it’s not explicit and everyone’s personality is so unrealistic to begin with that I felt like it didn’t really matter.  Freddie in particular has a completely different personality, Roger is an ingenue, and for some reason John was given a stutter.</i>
+<br><br><img class="img-medium" src="RMmanga/RMmanga1.jpg" alt=""><br>
+<img class="img-medium" src="RMmanga/RMmanga1.jpg" alt=""><br>
+<img class="img-medium" src="RMmanga/RMmanga2.jpg" alt=""><br>
+<img class="img-medium" src="RMmanga/RMmanga3.jpg" alt=""><br>
+<img class="img-medium" src="RMmanga/RMmanga4.jpg" alt=""><br>
+<img class="img-medium" src="RMmanga/RMmanga5.jpg" alt=""><br>
+<img class="img-medium" src="RMmanga/RMmanga6.jpg" alt=""><br>
+<img class="img-medium" src="RMmanga/RMmanga7.jpg" alt=""><br>
+<img class="img-medium" src="RMmanga/RMmanga8.jpg" alt=""><br>
+<img class="img-medium" src="RMmanga/RMmanga9.jpg" alt=""><br>
+<img class="img-medium" src="RMmanga/RMmanga10.jpg" alt=""><br>
+<img class="img-medium" src="RMmanga/RMmanga11.jpg" alt=""><br>
+<img class="img-medium" src="RMmanga/RMmanga12.jpg" alt=""><br>
+<img class="img-medium" src="RMmanga/RMmanga13.jpg" alt=""><br>
+<img class="img-medium" src="RMmanga/RMmanga14.jpg" alt=""><br>
+<img class="img-medium" src="RMmanga/RMmanga15.jpg" alt=""><br>
+<img class="img-medium" src="RMmanga/RMmanga16.jpg" alt=""><br>
+<img class="img-medium" src="RMmanga/RMmanga17.jpg" alt=""><br>
+<img class="img-medium" src="RMmanga/RMmanga18.jpg" alt=""><br>
+<img class="img-medium" src="RMmanga/RMmanga19.jpg" alt=""><br>
+<img class="img-medium" src="RMmanga/RMmanga20.jpg" alt=""><br>
+<img class="img-medium" src="RMmanga/RMmanga21.jpg" alt=""><br>
+<img class="img-medium" src="RMmanga/RMmanga22.jpg" alt=""><br>
+<img class="img-medium" src="RMmanga/RMmanga23.jpg" alt=""><br>
+<img class="img-medium" src="RMmanga/RMmanga24.jpg" alt=""><br>
+<img class="img-medium" src="RMmanga/RMmanga25.jpg" alt=""><br>
+<img class="img-medium" src="RMmanga/RMmanga26.jpg" alt=""><br>
+<img class="img-medium" src="RMmanga/RMmanga27.jpg" alt=""><br>
+<img class="img-medium" src="RMmanga/RMmanga28.jpg" alt=""><br>
+<img class="img-medium" src="RMmanga/RMmanga29.jpg" alt=""><br>
+<img class="img-medium" src="RMmanga/RMmanga20.jpg" alt=""><br>
+
+<br><hr>
+<br>
+<center>
+<img src="../images/BACK.png" width="45%" alt="Back" onclick="history.back()" style="cursor:pointer;">
+</center>
+
+  </main>
+</div>
+</div>
+</main>
+
+  <!-- Footer -->
+  <footer>
+    <p>QueenInJapan.com</p>
+    <p>All fan materials, drawings, etc will be credited to the creator whenever possible.  Artwork has been stylized for this site.  Homepage illustrations and Queen Japanese crest artwork done by yours truly.  <a href="https://danielduret.nl/queenfont/">Queen font</a> by Daniel Duret.  
+<br>No AI was involved in any part of this website, except to help check the coding because I don't know what I'm doing.  
+</p>
+<p>If you have any Japanese Queen memorabilia you’d like to sell, please email the webmistress at
+      <a href="mailto:queeninjapan@gmail.com">QueenInJapan@gmail.com</a></p>
+    <p>もし売りたいクイーンの日本のメモラビリアがありましたら、遠慮なく
+      <a href="mailto:queeninjapan@gmail.com">メール</a>してください。特に同人誌やファンジーンに興味があります。日本語でも連絡してもOKです。</p>
+  </footer>
+
+  <!-- Sidebar Script -->
+  <script>
+    function toggleNav() {
+     const sidebar = document.getElementById("mySidebar");
+sidebar.classList.toggle("open");
+}
+  </script>
+<script>
+document.addEventListener("click", function (event) {
+  const sidebar = document.querySelector(".sidebar");
+  const menuButton = document.querySelector(".menu-button");
+
+  // If sidebar is open AND click is outside both sidebar & button → close it
+  if (
+    sidebar.classList.contains("open") &&
+    !sidebar.contains(event.target) &&
+    !menuButton.contains(event.target)
+  ) {
+    sidebar.classList.remove("open");
+  }
+});
+</script>
+
+</body>
+</html>
