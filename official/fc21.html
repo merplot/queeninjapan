@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Queen in Japan • 日本の愛されたクイーン</title>
+
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body class="layout-leftimage">
+
+  <!-- Sidebar -->
+  <nav id="mySidebar" class="sidebar">
+    <a href="../index.html"><img src="images/top-icon.png" class="icon" alt="">Home</a>
+    <a href="../official.html"><img src="images/official-icon.png" class="icon" alt="">Official Japanese Fanclub Magazines</a>
+    <a href="../unofficial.html"><img src="images/unofficial-icon.png" class="icon" alt="">Unofficial Japanese Fanclub Magazines</a>
+    <a href="../manga.html"><img src="images/manga-icon.png" class="icon" alt="">Queen in Manga <br>& Doujinshi</a>
+    <a href="../press.html"><img src="images/press-icon.png" class="icon" alt="">Queen in Japanese Press</a>
+    <a href="../promo.html"><img src="images/promo-icon.png" class="icon" alt="">Japanese Promo Materials</a>
+    <a href="../about.html"><img src="images/about-icon.png" class="icon" alt="">About</a>
+  </nav>
+
+  <!-- Toggle Button -->
+  <span class="menu-button" onclick="toggleNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header id="home">
+  <a href="../official.html">  <h1><img src="images/QIJheader_official.png" alt="Queen in Japan"></h1></a>
+  </header>
+
+  <!-- Content -->
+  <main>
+  <div class="content-container">
+    <img src="21/fc21_cover.jpg" alt="Front Page" class="main-image">
+
+    <div class="text-content">
+
+<h2>Vol. 21 &mdash; February 1982 </h2>
+
+Vol. 21 contains a "QUEEN BEST 10" reader's poll, pictures of the English fanclub offices, and an excerpt of some of the conversations had at the fanclub gathering mentioned in vol. 20 with Kaoruko Togo and others.  This volume also sees the introduction of a section called "My Collection, My Queen" where fans send in info about their rare Queen records and memorabilia.  It's interesting to see what was considered rare, even in 1982.<br><br>
+     <figure class="float-right img-small">
+  <img src="18/fc18_1.jpg"><figcaption>Illustration by Shougo Jouten</figcaption>
+</figure>
+Someone in the want ads mentions a tape of the band's 1976 <a href="../promo/TV.html"><I>Ginza NOW!</I></a> appearance, which gives me hope that footage of this might turn up someday.  Another intersting ad:
+      <br><br>
+      <I>I'm offering up for purchase a copy of</I> Queen II<i> that, unlike the Japanese, UK, and USA copies, has a non-opening jacket for ¥4600.  I also have a French version of</i> Sheer Heart Attack<I> with an opening jacket for ¥5600, and a rare Dutch 12" LP single of </I>Under Pressure<i> for ¥3600.</i>
+      <br><br>
+      <I>Greatest Flix</I> gets a mention, which is a great example of how times were changing&mdash;for years, the only way fans could see Queen music videos was at so-called "film concerts" or to be lucky enough to catch them on a music TV program.  The release of <I>Greatest Flix</I> meant that for the low low price of about ¥16,000 they'd now be able to watch them in the comfort of their own home, if they had a VCR.
+      <br><br>
+      <a href="21/Queensappeal.html">Exploring Queen's Appeal &mdash; Excerpts from the Fan Gatherings</a>
+      <br><br>
+      <a href="21/MCMQ.html">My Collection, My Queen</a>
+
+<br><br>
+      <br>
+      <hr>
+      <br>
+
+      <center>
+        <img src="images/BACK.png" width="75%" alt="Back" onclick="history.back()" style="cursor:pointer;">
+      </center>
+    </div> <!-- END text-content -->
+
+  </div> <!-- END content-container -->
+</main>
+
+  <!-- Footer -->
+  <footer>
+    <p>QueenInJapan.com</p>
+    <p>All fan materials, drawings, etc will be credited to the creator whenever possible.  Artwork has been stylized for this site.  Homepage illustrations and Queen Japanese crest artwork done by yours truly.  <a href="https://danielduret.nl/queenfont/">Queen font</a> by Daniel Duret.  No AI was involved in any part of this website, except to help check the coding because I don't know what I'm doing.  
+</p>
+<p>If you have any Japanese Queen memorabilia you’d like to sell, please email the webmistress at
+      <a href="mailto:queeninjapan@gmail.com">QueenInJapan@gmail.com</a></p>
+    <p>もし売りたいクイーンの日本のメモラビリアがありましたら、遠慮なく
+      <a href="mailto:queeninjapan@gmail.com">メール</a>してください。特に同人誌やファンジーンに興味があります。日本語でも連絡してもOKです。</p>
+  </footer>
+
+  <!-- Sidebar Script -->
+  <script>
+    function toggleNav() {
+     const sidebar = document.getElementById("mySidebar");
+sidebar.classList.toggle("open");
+}
+
+</script>
+<script>
+document.addEventListener("click", function (event) {
+const sidebar = document.querySelector(".sidebar");
+const menuButton = document.querySelector(".menu-button");
+
+if (sidebar.classList.contains("open") &&
+!sidebar.contains(event.target) &&
+!menuButton.contains(event.target)) {
+sidebar.classList.remove("open");
+}
+});
+  </script>
+</body>
+</html>
