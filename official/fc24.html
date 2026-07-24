@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Queen in Japan • 日本の愛されたクイーン</title>
+
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body class="layout-leftimage">
+
+  <!-- Sidebar -->
+  <nav id="mySidebar" class="sidebar">
+    <a href="../index.html"><img src="images/top-icon.png" class="icon" alt="">Home</a>
+    <a href="../official.html"><img src="images/official-icon.png" class="icon" alt="">Official Japanese Fanclub Magazines</a>
+    <a href="../unofficial.html"><img src="images/unofficial-icon.png" class="icon" alt="">Unofficial Japanese Fanclub Magazines</a>
+    <a href="../manga.html"><img src="images/manga-icon.png" class="icon" alt="">Queen in Manga <br>& Doujinshi</a>
+    <a href="../press.html"><img src="images/press-icon.png" class="icon" alt="">Queen in Japanese Press</a>
+    <a href="../promo.html"><img src="images/promo-icon.png" class="icon" alt="">Japanese Promo Materials</a>
+    <a href="../about.html"><img src="images/about-icon.png" class="icon" alt="">About</a>
+  </nav>
+
+  <!-- Toggle Button -->
+  <span class="menu-button" onclick="toggleNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header id="home">
+  <a href="../official.html">  <h1><img src="images/QIJheader_official.png" alt="Queen in Japan"></h1></a>
+  </header>
+
+  <!-- Content -->
+  <main>
+  <div class="content-container">
+    <img src="24/fc24_cover.jpg" alt="Front Page" class="main-image">
+
+    <div class="text-content">
+
+<h2>Vol. 24 &mdash; December 1982 </h2>
+ <figure class="float-right img-small">
+  <img src="24/fc24_back.jpg">
+</figure> This issue was the first to come out after Queen's 1982 Japan tour ended, and there are pictures and info from their trip, setlists for each show, and concert impressions from fans, which are all quite positive even though the band was going through a lot of inner turmoil and felt burnt out at this point.  Even the fanclub editor comments that Queen's ability to draw crowds had diminished a bit from their heydays.  After this tour the band would take all of 1983 off, not goint back out on the road until 1984.
+      <br><br>
+     The second part of Shadow Queen's "My Collection, My Queen" is featured, containing tour pamphlets from around the world and a few rare vinyls such as white label promo releases and the uK single version of <I>The Seven Seas of Rhye</I>, which was highly sought-after in Japan due to its B-side <a href="../promo.html#lonely"><I>See What A Fool I've Been</I> having not yet seen release there.
+        <br><br>
+        There's also a blurb regarding the September release of <I>Gettin' Smile</I>, a Japan-only vinyl of songs from Smile, Queen's precursor band.  The tracks were cut in the late 60s but were ultimately never given official release at that time.  There's no info on how exactly it came to be, but it's noted that <I>Gettin' Smile</I> was released to commemorate Queen's tenth anniversary, and that when Brian was notified of this release he expressed surprise but ultimately gave his blessing.  For years, <I>Gettin' Smile</I> was the only legitimate release of these tracks until 1997 when they saw a Dutch CD release as <I>Ghost of a Smile</I>.  Of course, all of these tracks are easily found online today.
+        <br><br> <figure class="float-left img-xsmall">
+  <img src="24/fc24_1.jpg">
+</figure> 
+        The fanclub staff must've scrambled to put this issue out&mdash;there are an insane amount of typos.
+          <br><br>
+      <a href="24/82welcome.html">1982 Queen Welcome Party</a>
+      <br><br>
+      <a href="24/82anecdotes.html">1982 Japan Tour Anecdotes</a>
+    
+
+<br><br>
+      <br>
+      <hr>
+      <br>
+
+      <center>
+        <img src="images/BACK.png" width="75%" alt="Back" onclick="history.back()" style="cursor:pointer;">
+      </center>
+    </div> <!-- END text-content -->
+
+  </div> <!-- END content-container -->
+</main>
+
+  <!-- Footer -->
+  <footer>
+    <p>QueenInJapan.com</p>
+    <p>All fan materials, drawings, etc will be credited to the creator whenever possible.  Artwork has been stylized for this site.  Homepage illustrations and Queen Japanese crest artwork done by yours truly.  <a href="https://danielduret.nl/queenfont/">Queen font</a> by Daniel Duret.  No AI was involved in any part of this website, except to help check the coding because I don't know what I'm doing.  
+</p>
+<p>If you have any Japanese Queen memorabilia you’d like to sell, please email the webmistress at
+      <a href="mailto:queeninjapan@gmail.com">QueenInJapan@gmail.com</a></p>
+    <p>もし売りたいクイーンの日本のメモラビリアがありましたら、遠慮なく
+      <a href="mailto:queeninjapan@gmail.com">メール</a>してください。特に同人誌やファンジーンに興味があります。日本語でも連絡してもOKです。</p>
+  </footer>
+
+  <!-- Sidebar Script -->
+  <script>
+    function toggleNav() {
+     const sidebar = document.getElementById("mySidebar");
+sidebar.classList.toggle("open");
+}
+
+</script>
+<script>
+document.addEventListener("click", function (event) {
+const sidebar = document.querySelector(".sidebar");
+const menuButton = document.querySelector(".menu-button");
+
+if (sidebar.classList.contains("open") &&
+!sidebar.contains(event.target) &&
+!menuButton.contains(event.target)) {
+sidebar.classList.remove("open");
+}
+});
+  </script>
+</body>
+</html>
