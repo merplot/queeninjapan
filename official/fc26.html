@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Queen in Japan • 日本の愛されたクイーン</title>
+
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body class="layout-leftimage">
+
+  <!-- Sidebar -->
+  <nav id="mySidebar" class="sidebar">
+    <a href="../index.html"><img src="images/top-icon.png" class="icon" alt="">Home</a>
+    <a href="../official.html"><img src="images/official-icon.png" class="icon" alt="">Official Japanese Fanclub Magazines</a>
+    <a href="../unofficial.html"><img src="images/unofficial-icon.png" class="icon" alt="">Unofficial Japanese Fanclub Magazines</a>
+    <a href="../manga.html"><img src="images/manga-icon.png" class="icon" alt="">Queen in Manga <br>& Doujinshi</a>
+    <a href="../press.html"><img src="images/press-icon.png" class="icon" alt="">Queen in Japanese Press</a>
+    <a href="../promo.html"><img src="images/promo-icon.png" class="icon" alt="">Japanese Promo Materials</a>
+    <a href="../about.html"><img src="images/about-icon.png" class="icon" alt="">About</a>
+  </nav>
+
+  <!-- Toggle Button -->
+  <span class="menu-button" onclick="toggleNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header id="home">
+  <a href="../official.html">  <h1><img src="images/QIJheader_official.png" alt="Queen in Japan"></h1></a>
+  </header>
+
+  <!-- Content -->
+  <main>
+  <div class="content-container">
+    <img src="26/fc26_cover.jpg" alt="Front Page" class="main-image">
+
+    <div class="text-content">
+
+<h2>Vol. 26 &mdash; August 1983 </h2>
+        <figure class="float-right img-xsmall">
+  <img src="26/fc26_1.jpg"></figure>1982 was a relatively quiet year for Queen, so there isn't much to report on, and most content contained in vol. 26 was cross-sourced from the English fanclub anyways.  It's explained that a Japanese contact living in London established ties with the UK fanclub.  There were only three official Queen fanclubs worldwide: the Japanese fanclub, the Dutch fanclub, and the original English fanclub based out of the UK, which is still going today.
+      <br><br>
+      There is a news item regarding the first VHS release of <i><a href="https://www.ultimatequeen.co.uk/queen/videos/live-in-japan.htm">Live in Japan</a></i>.  The other news items are mostly regarding personal lives and side projects of the band members, plus an item on the movie <I>The Hotel New Hampshire</I>, which Queen was originally slated to provide the soundtrack for.  Ultimately this didn't pan out, but Freddie did write <I>Keep Passing the Open Windows</I> for this film, and the song made its way to their next album <I>The Works</I>.  There is also a chance to send away for <I>Gluttons for Punishment</I>, a book chronicling the band's 1981 South American tour.  When this relatively rare book goes up on auction sites today, it usually fetches at least $100 USD.
+      <br><br>
+      The footage from the April 25th, 1979 Budoukan performance was finally broadcast over several dates in July of 1982, and multiple fans in the want ads are looking for Betamax and VHS copies to dub from.  VHS copies of the August 19th, 1981 <a href="../press/TV.html#youngmusic">NHK broadcast footage</a> are also being sought here.
+      <br><br>
+      Someone is selling the instrumental LP <I><a href="https://www.discogs.com/release/5522049-Various-Queen-Songs">Queen Songs</a></I> featuring Akiko Yano on keyboards.  It's a bit muzaky, but I believe it's <a href="https://www.youtube.com/watch?v=9UQRpioeMOs&list=OLAK5uy_m6l7HSONQIQpfOoFCHUZDciRy66wYM1So&index=2">worth checking out</a>, especially because several of the song choices are deeper cuts that might not be what you'd expect to find on an album of Queen covers.
+        <br><br>
+      <br>
+      <hr>
+      <br>
+
+      <center>
+        <img src="images/BACK.png" width="75%" alt="Back" onclick="history.back()" style="cursor:pointer;">
+      </center>
+    </div> <!-- END text-content -->
+
+  </div> <!-- END content-container -->
+</main>
+
+  <!-- Footer -->
+  <footer>
+    <p>QueenInJapan.com</p>
+    <p>All fan materials, drawings, etc will be credited to the creator whenever possible.  Artwork has been stylized for this site.  Homepage illustrations and Queen Japanese crest artwork done by yours truly.  <a href="https://danielduret.nl/queenfont/">Queen font</a> by Daniel Duret.  No AI was involved in any part of this website, except to help check the coding because I don't know what I'm doing.  
+</p>
+<p>If you have any Japanese Queen memorabilia you’d like to sell, please email the webmistress at
+      <a href="mailto:queeninjapan@gmail.com">QueenInJapan@gmail.com</a></p>
+    <p>もし売りたいクイーンの日本のメモラビリアがありましたら、遠慮なく
+      <a href="mailto:queeninjapan@gmail.com">メール</a>してください。特に同人誌やファンジーンに興味があります。日本語でも連絡してもOKです。</p>
+  </footer>
+
+  <!-- Sidebar Script -->
+  <script>
+    function toggleNav() {
+     const sidebar = document.getElementById("mySidebar");
+sidebar.classList.toggle("open");
+}
+
+</script>
+<script>
+document.addEventListener("click", function (event) {
+const sidebar = document.querySelector(".sidebar");
+const menuButton = document.querySelector(".menu-button");
+
+if (sidebar.classList.contains("open") &&
+!sidebar.contains(event.target) &&
+!menuButton.contains(event.target)) {
+sidebar.classList.remove("open");
+}
+});
+  </script>
+</body>
+</html>
